@@ -16,7 +16,7 @@ subject: [[]]
 
 ---
 # Relationships
-## Where is this idea coming from 
+## Where is this idea coming from
 
 ## Where does this idea lead to
 

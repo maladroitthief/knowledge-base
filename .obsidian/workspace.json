@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7380f616427d2ca7",
+        "id": "79fda10ebf5264b9",
         "type": "tabs",
         "children": [
           {
-            "id": "269b7e147ff60359",
+            "id": "760499eb575eb356",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/reference.md",
-                "mode": "source",
+                "file": "templates/hub.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/reference.md",
+                "file": "templates/hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/reference.md",
+                "file": "templates/hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -125,12 +125,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/reference.md"
+                "file": "templates/hub.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -146,13 +145,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "269b7e147ff60359",
+  "active": "760499eb575eb356",
   "lastOpenFiles": [
     "templates/idea.md",
     "templates/reference.md",
+    "templates/hub.md",
+    "permanent-notes/QEC Method of Note Taking.md",
+    "reference-notes/How to Become a Straight-A Student.md",
+    "permanent-notes/Note Taking.md",
+    "permanent-notes/Bullet Journal.md",
     "daily-notes/2023-04-05.md",
     "Untitled.md",
-    "templates/hub.md",
     "refer.md",
     "permanent-notes",
     "daily-notes",

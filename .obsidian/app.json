@@ -6,5 +6,7 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "root",
   "attachmentFolderPath": "assets",
-  "livePreview": false
+  "livePreview": false,
+  "showLineNumber": false,
+  "defaultViewMode": "preview"
 }
