@@ -1,0 +1,10 @@
+{
+  "spellcheck": true,
+  "tabSize": 2,
+  "vimMode": true,
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "root",
+  "attachmentFolderPath": "assets",
+  "livePreview": false
+}
