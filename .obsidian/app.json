@@ -8,5 +8,6 @@
   "attachmentFolderPath": "assets",
   "livePreview": false,
   "showLineNumber": false,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "showInlineTitle": false
 }

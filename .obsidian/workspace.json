@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "79fda10ebf5264b9",
+        "id": "e4c54c282f0e4034",
         "type": "tabs",
         "children": [
           {
-            "id": "760499eb575eb356",
+            "id": "a5794988e6a73ab1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/hub.md",
+                "file": "reference-notes/The-PARA-Method.md",
                 "mode": "preview",
                 "source": true
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 450.5
   },
   "right": {
     "id": "473d8e5f79eb7c16",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/hub.md",
+                "file": "reference-notes/The-PARA-Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/hub.md",
+                "file": "reference-notes/The-PARA-Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/hub.md"
+                "file": "reference-notes/The-PARA-Method.md"
               }
             }
           }
@@ -133,7 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 479.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,15 +145,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "760499eb575eb356",
+  "active": "1be8427d9468f627",
   "lastOpenFiles": [
-    "templates/idea.md",
+    "daily-notes/2023-04-06.md",
+    "Untitled.canvas",
+    "reference-notes/How-to-Become-a-Straight-A-Student.md",
+    "permanent-notes/Digital-Organization.md",
+    "permanent-notes/PARA-Method.md",
+    "reference-notes/The-PARA-Method.md",
     "templates/reference.md",
+    "templates/idea.md",
     "templates/hub.md",
-    "permanent-notes/QEC Method of Note Taking.md",
-    "reference-notes/How to Become a Straight-A Student.md",
-    "permanent-notes/Note Taking.md",
-    "permanent-notes/Bullet Journal.md",
+    "permanent-notes/QEC-Method-of-Note-Taking.md",
+    "permanent-notes/Bullet-Journal.md",
+    "permanent-notes/Note-Taking.md",
     "daily-notes/2023-04-05.md",
     "Untitled.md",
     "refer.md",
@@ -162,7 +167,6 @@
     "reference-notes",
     "templates",
     "assets",
-    "Untitled.canvas",
     "2023-04-04.md"
   ]
 }

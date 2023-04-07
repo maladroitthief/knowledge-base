@@ -1,5 +1,5 @@
 type: #idea
-subject: [[Note Taking]]
+subject: [[Note-Taking]]
 
 # QEC Method of Note Taking
 
@@ -8,18 +8,18 @@ QEC stands for **question**, **evidence**, and **conclusion**. This allows for b
 
 ---
 # References
-[How to Become a Straight-A Student](How%20to%20Become%20a%20Straight-A%20Student.md)
+[How-to-Become-a-Straight-A-Student](How-to-Become-a-Straight-A-Student.md)
 
 ---
 # Relationships
 ## Where is this idea coming from
-[Note Taking](Note%20Taking.md)
+[Note-Taking](Note-Taking.md)
 
 ## Where does this idea lead to
 #todo
 
 ## What is this idea similar to
-[Bullet Journal](Bullet%20Journal.md)
+[Bullet-Journal](Bullet-Journal.md)
 
 ## What is this idea the opposite of
 #todo
