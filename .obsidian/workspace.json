@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e4c54c282f0e4034",
+        "id": "b9ad1b4cee6df713",
         "type": "tabs",
         "children": [
           {
-            "id": "a5794988e6a73ab1",
+            "id": "1854eb2fcf483641",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reference-notes/The-PARA-Method.md",
+                "file": "permanent-notes/Big-Oh-Notation.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reference-notes/The-PARA-Method.md",
+                "file": "permanent-notes/Big-Oh-Notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reference-notes/The-PARA-Method.md",
+                "file": "permanent-notes/Big-Oh-Notation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reference-notes/The-PARA-Method.md"
+                "file": "permanent-notes/Big-Oh-Notation.md"
               }
             }
           }
@@ -145,14 +145,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1be8427d9468f627",
+  "active": "1854eb2fcf483641",
   "lastOpenFiles": [
-    "daily-notes/2023-04-06.md",
+    "permanent-notes/Factorial-functions.md",
+    "permanent-notes/Big-Oh-Notation.md",
+    "permanent-notes/Linear-functions.md",
+    "permanent-notes/Constant-functions.md",
+    "permanent-notes/Super-linear-functions.md",
+    "permanent-notes/Quadratic-functions.md",
+    "permanent-notes/Logarithmic-functions.md",
+    "permanent-notes/Exponential-functions.md",
+    "permanent-notes/Cubic-functions.md",
     "Untitled.canvas",
+    "daily-notes/2023-04-07.md",
+    "permanent-notes/RAM-Model-of-Computing.md",
+    "permanent-notes/Algorithm-Analysis.md",
+    "reference-notes/The-Algorithm-Design-Manual.md",
+    "reference-notes/The-PARA-Method.md",
+    "daily-notes/2023-04-06.md",
     "reference-notes/How-to-Become-a-Straight-A-Student.md",
     "permanent-notes/Digital-Organization.md",
     "permanent-notes/PARA-Method.md",
-    "reference-notes/The-PARA-Method.md",
     "templates/reference.md",
     "templates/idea.md",
     "templates/hub.md",
@@ -161,12 +174,10 @@
     "permanent-notes/Note-Taking.md",
     "daily-notes/2023-04-05.md",
     "Untitled.md",
-    "refer.md",
     "permanent-notes",
     "daily-notes",
     "reference-notes",
     "templates",
-    "assets",
-    "2023-04-04.md"
+    "assets"
   ]
 }
