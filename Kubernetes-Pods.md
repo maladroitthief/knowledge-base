@@ -1,8 +1,9 @@
 type: #idea
-subject: [[]]
-<!-- Subject should be a hub note -->
-# {{title}}
+subject: [Kubernetes](Kubernetes.md)
 
+# Kubernetes-Pods
+
+#todo
 <!--
 	Write three to five sentences in your own words
 	Assume that the reader will have no context
@@ -12,4 +13,4 @@ subject: [[]]
 
 ---
 # References
-<!-- What references back up this idea -->
+[Kubernetes-documentation](Kubernetes-documentation.md)

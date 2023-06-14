@@ -9,17 +9,3 @@ QEC stands for **question**, **evidence**, and **conclusion**. This allows for b
 ---
 # References
 [How-to-Become-a-Straight-A-Student](How-to-Become-a-Straight-A-Student.md)
-
----
-# Relationships
-## Where is this idea coming from
-[Note-Taking](Note-Taking.md)
-
-## Where does this idea lead to
-#todo
-
-## What is this idea similar to
-[Bullet-Journal](Bullet-Journal.md)
-
-## What is this idea the opposite of
-#todo

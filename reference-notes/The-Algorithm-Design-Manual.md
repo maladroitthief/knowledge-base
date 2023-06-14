@@ -1,5 +1,5 @@
 type: #reference
-subject: [Algorithm-Analysis](Algorithm-Analysis.md)
+subject: [Algorithms](Algorithms.md)
 
 # The Algorithm Design Manual
 

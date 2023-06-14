@@ -1,7 +1,7 @@
 type: #idea
-subject: [[]]
+subject: [Algorithms](Algorithms.md)
 <!-- Subject should be a hub note -->
-# {{title}}
+# Strategy-Pattern
 
 <!--
 	Write three to five sentences in your own words

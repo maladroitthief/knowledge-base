@@ -1,5 +1,5 @@
 type: #idea
-subject: [Algorithm-Analysis](Algorithm-Analysis.md)
+subject: [Algorithms](Algorithms.md)
 
 # RAM Model of Computing
 
@@ -16,13 +16,3 @@ Another crucial part of the RAM Model is analyzing algorithms in multiple scenar
 ---
 # References
 [The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)
-
----
-# Relationships
-## Where is this idea coming from
-
-## Where does this idea lead to
-
-## What is this idea similar to
-
-## What is this idea the opposite of

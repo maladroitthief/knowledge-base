@@ -20,15 +20,3 @@ The order of these folders is intentional depending on how actionable the ideas 
 ---
 # References
 [The-PARA-Method](The-PARA-Method.md)
-
----
-# Relationships
-## Where is this idea coming from
-
-## Where does this idea lead to
-
-[Note-Taking](Note-Taking.md)
-
-## What is this idea similar to
-
-## What is this idea the opposite of
