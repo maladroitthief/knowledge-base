@@ -1,0 +1,35 @@
+type: #idea
+subject: [Data Structures](Data-Structures.md)
+<!-- Subject should be a hub note -->
+# Array
+
+An array is a collection of items that are held in order at a specific index. They are useful for storing objects of the same type in a single variable and it is very quick to access elements if you have the index. It should also be said that adding or removing objects to the middle of an array can be a slow process. 
+
+| Operation | Big-O | Note |
+|-----------|-------|------|
+| Access | O(1) | |
+| Search | O(n) | |
+| Search (sorted) | O(log(n)) | |
+| Insert/Remove | O(n) | requires shifting elements by 1 |
+| Insert/Remove (at end) | O(1) | special case where no shifting is required |
+
+## Common edge cases
+
+- Empty sequence
+- Sequence with 1 or 2 elements
+- Sequence with repeated elements
+- Duplicate values in sequence
+
+## Techniques
+
+- [Sliding window](Sliding-window)
+- [Two pointers](Two-pointers)
+- [Traverse from right](Traverse-from-right)
+- [Sorting](Sorting)
+- [Pre-computation](Pre-computation)
+- [Index as hash key](Index-as-hash-key)
+- [Traversing multiple times](Traversing-multiple-times)
+
+---
+# References
+<!-- What references back up this idea -->

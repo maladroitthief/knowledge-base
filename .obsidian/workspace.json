@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "33f4bb12e08aa0f1",
+        "id": "defe46af7904c430",
         "type": "tabs",
         "children": [
           {
-            "id": "2fc29d5ec95143f4",
+            "id": "1d366ad5f97b089f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "permanent-notes/Algorithms.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "permanent-notes/Algorithms.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -128,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent-notes/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +139,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent-notes/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,16 +160,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "permanent-notes/Algorithms.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 710.5
+    "width": 358.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,35 +179,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fc29d5ec95143f4",
+  "active": "1d366ad5f97b089f",
   "lastOpenFiles": [
-    "permanent-notes/Programs.md",
+    "Prefix-tree.md",
+    "Suffix-tree.md",
+    "Trie.md",
+    "daily-notes/2023-06-19.md",
+    "permanent-notes/Quadratic-functions.md",
+    "String.md",
+    "Sliding-window.md",
+    "Array.md",
+    "Index-as-hash-key.md",
+    "Pre-computation.md",
+    "Sorting.md",
+    "Traverse-from-right.md",
+    "Two-pointers.md",
+    "daily-notes/2023-06-18.md",
+    "Data-Structures.md",
     "permanent-notes/Algorithms.md",
+    "templates/hub.md",
+    "daily-notes/2023-06-17.md",
+    "daily-notes/2023-06-14.md",
     "daily-notes/2023-06-13.md",
+    "permanent-notes/Programs.md",
     "Strategy-Pattern.md",
     "Kubernetes-Pods.md",
     "Kubernetes-Deployments.md",
     "daily-notes/2023-04-18.md",
     "Untitled.md",
     "daily-notes",
-    "permanent-notes/Dependency-inversion-principle.md",
-    "permanent-notes/Interface-segregation-principle.md",
-    "permanent-notes/Liskov-substitution-principle.md",
-    "permanent-notes/Open-closed-principle.md",
-    "permanent-notes/Design-principles.md",
-    "permanent-notes/Computer-science.md",
-    "permanent-notes/Single-responsibility-principle.md",
-    "permanent-notes/Super-linear-functions.md",
-    "permanent-notes/SOLID-principles.md",
-    "permanent-notes/RAM-Model-of-Computing.md",
-    "permanent-notes/Quadratic-functions.md",
-    "permanent-notes/QEC-Method-of-Note-Taking.md",
-    "permanent-notes/PARA-Method.md",
-    "permanent-notes/Note-Taking.md",
-    "permanent-notes/Logarithmic-functions.md",
-    "permanent-notes/Linear-functions.md",
-    "permanent-notes/Kubernetes-Services.md",
-    "permanent-notes/Kubernetes.md",
     "Untitled.canvas",
     "permanent-notes",
     "daily-notes",
