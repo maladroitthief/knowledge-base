@@ -4,7 +4,3 @@ subject: [Computational-technique](Computational-technique)
 # Sorting
 
 If an array's order does not need to be preserved it can often times be advantageous to sort the array. This opens up the possibility to use some searching algorithm that is faster than O(n).
-
----
-# References
-<!-- What references back up this idea -->

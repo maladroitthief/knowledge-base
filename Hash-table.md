@@ -1,9 +1,8 @@
 type: #idea
-subject: [Algorithms](Algorithms.md)
+subject: [Data-Structures](Data-Structures.md)
 <!-- Subject should be a hub note -->
-# Strategy-Pattern
+# Hash table
 
-#todo 
 <!--
 	Write three to five sentences in your own words
 	Assume that the reader will have no context

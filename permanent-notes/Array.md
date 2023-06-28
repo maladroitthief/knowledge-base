@@ -22,12 +22,12 @@ An array is a collection of items that are held in order at a specific index. Th
 
 ## Techniques
 
-- [Sliding window](Sliding-window)
-- [Two pointers](Two-pointers)
-- [Traverse from right](Traverse-from-right)
-- [Sorting](Sorting)
-- [Pre-computation](Pre-computation)
-- [Index as hash key](Index-as-hash-key)
+- [Sliding window](Sliding-window.md)
+- [Two pointers](Two-pointers.md)
+- [Traverse from right](Traverse-from-right.md)
+- [Sorting](Sorting.md)
+- [Pre-computation](Pre-computation.md)
+- [Index as hash key](Index-as-hash-key.md)
 - [Traversing multiple times](Traversing-multiple-times)
 
 ---

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "defe46af7904c430",
+        "id": "6dfae406195c7ceb",
         "type": "tabs",
         "children": [
           {
-            "id": "1d366ad5f97b089f",
+            "id": "b2d5c55f6d3dfbb7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Hash-table.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Hash-table.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -123,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hash-table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hash-table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,14 +167,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Hash-table.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 358.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,34 +189,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d366ad5f97b089f",
+  "active": "b2d5c55f6d3dfbb7",
   "lastOpenFiles": [
-    "Prefix-tree.md",
-    "Suffix-tree.md",
-    "Trie.md",
-    "daily-notes/2023-06-19.md",
-    "permanent-notes/Quadratic-functions.md",
-    "String.md",
-    "Sliding-window.md",
-    "Array.md",
-    "Index-as-hash-key.md",
-    "Pre-computation.md",
-    "Sorting.md",
-    "Traverse-from-right.md",
-    "Two-pointers.md",
-    "daily-notes/2023-06-18.md",
-    "Data-Structures.md",
-    "permanent-notes/Algorithms.md",
-    "templates/hub.md",
-    "daily-notes/2023-06-17.md",
-    "daily-notes/2023-06-14.md",
-    "daily-notes/2023-06-13.md",
-    "permanent-notes/Programs.md",
-    "Strategy-Pattern.md",
+    "permanent-notes/String.md",
+    "Hash-table.md",
+    "permanent-notes/KMP.md",
+    "permanent-notes/Rabin-Karp.md",
+    "permanent-notes/Suffix-tree.md",
+    "permanent-notes/Linear-functions.md",
+    "permanent-notes/Array.md",
+    "daily-notes/2023-06-28.md",
     "Kubernetes-Pods.md",
+    "Strategy-Pattern.md",
+    "permanent-notes/Index-as-hash-key.md",
     "Kubernetes-Deployments.md",
-    "daily-notes/2023-04-18.md",
-    "Untitled.md",
+    "templates/reference.md",
+    "templates/idea.md",
+    "templates/hub.md",
+    "permanent-notes/Sorting.md",
+    "permanent-notes/Pre-computation.md",
+    "daily-notes/2023-06-27.md",
+    "permanent-notes/Sliding-window.md",
+    "permanent-notes/Two-pointers.md",
+    "daily-notes/2023-06-23.md",
+    "daily-notes/2023-06-22.md",
+    "permanent-notes/Trie.md",
+    "permanent-notes/Traverse-from-right.md",
+    "permanent-notes/Prefix-tree.md",
+    "permanent-notes/Data-Structures.md",
     "daily-notes",
     "Untitled.canvas",
     "permanent-notes",
