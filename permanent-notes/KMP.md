@@ -15,6 +15,7 @@ KMP has a time complexity of $O(n + m)$ where $n$ is the text length and $m$ is 
 ## Examples
 
 ### python
+
 ```python
 def search(pattern, text):
     results = []
@@ -46,4 +47,59 @@ def setup_lps(pattern) -> List[int]:
             prefixPointer += 1
             lps[i] = prefixPointer
     return lps
+```
+
+### go
+
+```go
+func search(pattern, text string) []int {
+	results := []int{}
+	textLength := len(text)
+	patternLength := len(pattern)
+	i := 0
+	j := 0
+	// pre-process the pattern
+	lps := setupLPS(pattern)
+	for (textLength - i) >= (patternLength - j) {
+		if pattern[j] == text[i] {
+			i++
+			j++
+		}
+		if j == patternLength {
+			results = append(results, i-j)
+			j = lps[j-1]
+			continue
+		}
+		if i < textLength && pattern[j] != text[i] {
+			if j != 0 {
+				j = lps[j-1]
+			} else {
+				i++
+			}
+		}
+	}
+	return results
+}
+
+func setupLPS(pattern string) []int {
+	lps := make([]int, len(pattern))
+	prefixPointer := 0
+	i := 1
+	for i < len(pattern) {
+		// increment the pointer and record the index
+		if pattern[i] == pattern[prefixPointer] {
+			prefixPointer += 1
+			lps[i] = prefixPointer
+			i++
+		} else {
+			if prefixPointer != 0 {
+				prefixPointer = lps[prefixPointer-1]
+			} else {
+				lps[i] = 0
+				i++
+			}
+		}
+	}
+	return lps
+}
 ```

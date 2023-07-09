@@ -1,7 +1,7 @@
 type: #hub
-subject: [[]]
+subject: [Software-Engineering](Software-Engineering.md)
 <!-- Subject should be a hub note -->
-# Computer science
+# Computational-technique
 <!--
 	This can be empty
 	This can be an index

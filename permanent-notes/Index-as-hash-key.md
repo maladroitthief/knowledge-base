@@ -1,5 +1,5 @@
 type: #idea
-subject: [Computational-technique](Computational-technique)
+subject: [Computational-technique](Computational-technique.md)
 <!-- Subject should be a hub note -->
 # Index as hash key
 

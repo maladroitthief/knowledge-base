@@ -25,7 +25,7 @@ An array is a collection of items that are held in order at a specific index. Th
 - [Sliding window](Sliding-window.md)
 - [Two pointers](Two-pointers.md)
 - [Traverse from right](Traverse-from-right.md)
-- [Sorting](Sorting.md)
+- [Sorting-and-searching](Sorting-and-searching.md)
 - [Pre-computation](Pre-computation.md)
 - [Index as hash key](Index-as-hash-key.md)
 - [Traversing multiple times](Traversing-multiple-times)

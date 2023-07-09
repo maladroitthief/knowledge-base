@@ -22,6 +22,7 @@ It should be acknowledged that for larger character sets and larger patterns, th
 ## Examples
 
 ### python
+
 ```python
 alphabetLength = 256
 primeNumber = 16777619
@@ -66,4 +67,54 @@ def search(pattern, text):
             ) % primeNumber
             if textHash < 0:
                 textHash = textHash + primeNumber
+```
+
+### go
+
+```go
+func search(pattern, text string) []int {
+	results := []int{}
+	patternLength := len(pattern)
+	textLength := len(text)
+	patternHash := 0
+	textHash := 0
+	fingerprint := 1
+	i := 0
+	j := 0
+	// setting the fingerprint
+	for i = 0; i < patternLength - 1; i++ {
+		fingerprint = (fingerprint * alphabetLength) % primeNumber
+	}
+	// pre-processing pattern and text hash values
+	for i = 0; i < patternLength; i++ {
+		patternHash = (alphabetLength*patternHash +
+			int(pattern[i])) % primeNumber
+		textHash = (alphabetLength*textHash +
+			int(text[i])) % primeNumber
+	}
+	// search the text
+	for i = 0; i <= textLength-patternLength; i++ {
+		// check the characters manually when hit occurs
+		if patternHash == textHash {
+			for j = 0; j < patternLength; j++ {
+				if text[i+j] != pattern[j] {
+					break
+				}
+			}
+			if j == patternLength {
+				results = append(results, i)
+			}
+		}
+		// roll the hash forward
+		if i < textLength-patternLength {
+			textHash = (alphabetLength * (textHash -
+				int(text[i])*fingerprint) +
+				int(text[i+patternLength])) % primeNumber
+			if textHash < 0 {
+				textHash = textHash + primeNumber
+			}
+		}
+	}
+	return results
+}
 ```

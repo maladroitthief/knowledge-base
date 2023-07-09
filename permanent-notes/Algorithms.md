@@ -1,5 +1,5 @@
 type: #hub
-subject: [[Computer-science]]
+subject: [Software-Engineering](Software-Engineering.md)
 
 # Algorithms
 

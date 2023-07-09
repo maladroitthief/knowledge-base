@@ -1,5 +1,5 @@
 type: #hub
-subject: [Computer-science](Computer-science.md)
+subject: [Software-Engineering](Software-Engineering.md)
 
 # Programs
 
