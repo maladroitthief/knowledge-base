@@ -3,7 +3,7 @@ subject: [Data-Structures](Data-Structures.md)
 <!-- Subject should be a hub note -->
 # Trie
 
-A trie is a tree structure where each edge represents one character and the root is null. Each path from the root represents a string, described by the characters labeling the traversed edges.
+A trie is a [Tree](Tree.md) structure where each edge represents one character and the root is null. Each path from the root represents a string, described by the characters labeling the traversed edges.
 
 ## Time complexity
 
