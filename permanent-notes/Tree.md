@@ -22,7 +22,7 @@ Trees can also be considered as a undirected, connect, acyclic [Graph](Graph.md)
 ## Types of trees
 
 - [Trie](Trie.md)
-- [Binary-tree](Binary-tree.md)]
+- [Binary-tree](Binary-tree.md)
 - [Binary-search-tree](Binary-search-tree.md)
 
 ## Common routines

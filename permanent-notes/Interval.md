@@ -39,7 +39,7 @@ func overlap(a, b [2]int) bool {
 
 ```go
 func mergeOverlappingIntervals(a, b [2]float64) [2]float64 {
-	return [2]float64{ math.Min(a[0], b[0]), math.Max(a[1], b[1]) }
+	return [2]float64{ math.Min(a[0], b[0]), math.Max(a[1], b[1])
 }
 ```
 
