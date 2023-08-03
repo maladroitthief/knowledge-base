@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f3f1d35342a674e5",
+        "id": "93494d403e274db1",
         "type": "tabs",
         "children": [
           {
-            "id": "c92192bc53e94cd3",
+            "id": "a9e4a994e93add05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hash-table.md",
-                "mode": "preview",
+                "file": "Valid-Parentheses.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Hash-table.md",
+                "file": "Valid-Parentheses.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hash-table.md",
+                "file": "Valid-Parentheses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hash-table.md",
+                "file": "Valid-Parentheses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hash-table.md"
+                "file": "Valid-Parentheses.md"
               }
             }
           }
@@ -187,34 +187,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4081df31b073ba1",
+  "active": "a9e4a994e93add05",
   "lastOpenFiles": [
+    "Two-Sum.md",
+    "Valid-Parentheses.md",
+    "The-75-Questions.md",
+    "templates/idea.md",
+    "Service-Level-Objects.md",
+    "Service-Level-Indicators.md",
+    "Site-Reliability-Engineering.md",
+    "Operations.md",
+    "permanent-notes/Matrix.md",
+    "permanent-notes/Hash-table.md",
+    "permanent-notes/Array.md",
+    "permanent-notes/Linear-functions.md",
+    "permanent-notes/KMP.md",
+    "permanent-notes/String.md",
+    "permanent-notes/Rabin-Karp.md",
+    "permanent-notes/jq.md",
+    "permanent-notes/Computational-technique.md",
+    "permanent-notes/Index-as-hash-key.md",
+    "permanent-notes/Topological-sorting.md",
+    "permanent-notes/Graph.md",
+    "unfinished-notes/Union-find.md",
+    "unfinished-notes/System-design-preparation.md",
+    "unfinished-notes/Strategy-Pattern.md",
     "unfinished-notes/Binary-search.md",
-    "Hash-table.md",
     "unfinished-notes/Kubernetes-Deployments.md",
     "unfinished-notes/Kubernetes-Pods.md",
-    "unfinished-notes/Strategy-Pattern.md",
-    "unfinished-notes/Offer-negotiation.md",
-    "unfinished-notes/System-design-preparation.md",
-    "unfinished-notes/Union-find.md",
-    "unfinished-notes/The-75-Questions.md",
-    "permanent-notes/Recursion.md",
-    "permanent-notes/Binary.md",
-    "unfinished-notes/Geometry.md",
-    "permanent-notes/Dynamic-programming.md",
-    "permanent-notes/CPU.md",
-    "permanent-notes/Stack.md",
-    "permanent-notes/Interval.md",
-    "permanent-notes/Trie.md",
-    "permanent-notes/Tree.md",
-    "permanent-notes/Binary-tree.md",
-    "permanent-notes/Heap.md",
-    "permanent-notes/String.md",
-    "permanent-notes/Topological-sorting.md",
-    "permanent-notes/Breadth-first-search.md",
-    "permanent-notes/Depth-first-search.md",
-    "permanent-notes/Graph.md",
-    "permanent-notes/Array.md",
     "unfinished-notes",
     "daily-notes",
     "Untitled.canvas",
