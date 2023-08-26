@@ -13,6 +13,34 @@ A stack is a linear data structure that supports adding elements to one end and 
 | Search | O(n) |
 | isEmpty | O(1) |
 
+## Examples
+
+### go
+
+For short lived stacks
+
+```go
+var stack []string
+// Push
+stack = append(stack, "Hello")
+// Peek
+fmt.Print(stack[len(stack)-1])
+// Pop
+stack = stack[:len(stack)-1]
+```
+
+For long lived stacks
+
+```go
+stack := list.New()
+// Push
+stack.PushBack("Hello")
+// Peek
+stack.Back()
+// Pop
+stack.Remove(stack.Back())
+```
+
 ---
 # References
 <!-- What references back up this idea -->

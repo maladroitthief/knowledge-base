@@ -30,6 +30,19 @@ An array is a collection of items that are held in order at a specific index. Th
 - [Index as hash key](Index-as-hash-key.md)
 - [Traversing multiple times](Traversing-multiple-times)
 
+## Practice
+
+- [Two-Sum](Two-Sum.md)
+- [Best-Time-to-Buy-and-Sell-Stock](Best-Time-to-Buy-and-Sell-Stock.md)
+- [Product-of-Array-Except-Self](Product-of-Array-Except-Self.md)
+- [Maximum-Subarray](Maximum-Subarray.md)
+- [[Contains-Duplicate]]
+- [[Maximum-Product-Subarray]] 
+- [Search-in-Rotated-Sorted-Array](Search-in-Rotated-Sorted-Array.md)
+- [3Sum](3Sum.md)
+- [[Container-With-Most-Water]]
+- [[Sliding-Window-Maximum]]
+
 ---
 # References
 <!-- What references back up this idea -->
