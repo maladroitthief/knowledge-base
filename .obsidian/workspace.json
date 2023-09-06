@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "08ea3b71668814c8",
+        "id": "bbe332ab98df67d7",
         "type": "tabs",
         "children": [
           {
-            "id": "61f07f31644d27b1",
+            "id": "9831b97c8510726e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "permanent-notes/Array.md",
-                "mode": "source",
+                "file": "unfinished-notes/Service-Level-Indicators.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 274.5
   },
   "right": {
     "id": "473d8e5f79eb7c16",
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "permanent-notes/Array.md",
+                "file": "unfinished-notes/Service-Level-Indicators.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent-notes/Array.md",
+                "file": "unfinished-notes/Service-Level-Indicators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent-notes/Array.md",
+                "file": "unfinished-notes/Service-Level-Indicators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "permanent-notes/Array.md"
+                "file": "unfinished-notes/Service-Level-Indicators.md"
               }
             }
           }
@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 707.5
+    "width": 770.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,34 +187,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61f07f31644d27b1",
+  "active": "b4081df31b073ba1",
   "lastOpenFiles": [
-    "permanent-notes/Technical-interview-preparation.md",
-    "reference-notes/Tech-Interview-Handbook.md",
+    "unfinished-notes/Operations.md",
+    "unfinished-notes/Go-Concurrency-Patterns.md",
+    "reference-notes/Computer-Organization-and-Design.md",
+    "permanent-notes/Two-pointers.md",
     "The-75-Questions.md",
-    "Site-Reliability-Engineering.md",
-    "Minimum-Window-Substring.md",
-    "permanent-notes/Time-Based-Key-Value-Store.md",
-    "permanent-notes/Trapping-Rain-Water.md",
-    "permanent-notes/Flood-Fill.md",
-    "permanent-notes/Binary-search.md",
-    "permanent-notes/Valid-Anagram.md",
     "permanent-notes/Invert-Binary-Tree.md",
-    "permanent-notes/Valid-Palindrome.md",
-    "permanent-notes/Best-Time-to-Buy-and-Sell-Stock.md",
-    "permanent-notes/Merge-Two-Sorted-Lists.md",
-    "permanent-notes/Valid-Parentheses.md",
+    "Minimum-Window-Substring.md",
+    "Sliding-Window-Maximum.md",
+    "permanent-notes/Validate-Binary-Search-Tree.md",
     "permanent-notes/Two-Sum.md",
-    "permanent-notes/Lower-Common-Ancestor-of-a-Binary-Tree.md",
-    "permanent-notes/Merge-Intervals.md",
-    "permanent-notes/Permutations.md",
-    "permanent-notes/Reverse-Linked-List.md",
-    "Traversing-multiple-times.md",
-    "Service-Level-Objects.md",
-    "Go-Concurrency-Patterns.md",
-    "Go-Programming-Language.md",
-    "Service-Level-Indicators.md",
-    "permanent-notes/Combination-Sum.md",
+    "permanent-notes/Valid-Parentheses.md",
+    "permanent-notes/Valid-Palindrome.md",
+    "permanent-notes/Valid-Anagram.md",
+    "permanent-notes/Trie.md",
+    "permanent-notes/Tree.md",
+    "permanent-notes/Traverse-from-right.md",
+    "permanent-notes/Technical-interview-preparation.md",
+    "permanent-notes/Trapping-Rain-Water.md",
+    "permanent-notes/Topological-sorting.md",
+    "permanent-notes/Time-Based-Key-Value-Store.md",
+    "permanent-notes/Systems-software.md",
+    "permanent-notes/Super-linear-functions.md",
+    "permanent-notes/Suffix-tree.md",
+    "permanent-notes/String.md",
+    "permanent-notes/Stack.md",
+    "permanent-notes/Sorting-and-searching.md",
     "unfinished-notes",
     "daily-notes",
     "Untitled.canvas",

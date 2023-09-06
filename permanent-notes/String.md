@@ -52,3 +52,15 @@ To determine if two strings are anagrams of one another, sort them and compare t
 ### Palindrome
 
 To determine if a string is a palindrome, reverse it and compare the two strings. It is also possible to use two pointers at either end of the string and move them inward, comparing character by character until they meet.
+
+## Practice
+
+- [Valid-Anagram](Valid-Anagram.md)
+- [Valid-Palindrome](Valid-Palindrome.md)
+- [Longest-Substring-Without-Repeating-Characters](Longest-Substring-Without-Repeating-Characters.md)
+- [[Longest-Repeating-Character-Replacement]]
+- [[Find-All-Anagrams-in-a-String]]
+- [Minimum-Window-Substring](Minimum-Window-Substring.md)
+- [[Group-Anagrams]]
+- [[Longest-Palindrome-Substring]]
+- [[Encode-and-Decode-Strings]]
