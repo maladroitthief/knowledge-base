@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unfinished-notes/Service-Level-Indicators.md",
-                "mode": "preview",
+                "file": "pwd.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "unfinished-notes/Service-Level-Indicators.md",
+                "file": "pwd.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unfinished-notes/Service-Level-Indicators.md",
+                "file": "pwd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unfinished-notes/Service-Level-Indicators.md",
+                "file": "pwd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unfinished-notes/Service-Level-Indicators.md"
+                "file": "pwd.md"
+              }
+            }
+          },
+          {
+            "id": "ab7c9b6ce473b9f7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -187,9 +197,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4081df31b073ba1",
+  "active": "9831b97c8510726e",
   "lastOpenFiles": [
+    "permanent-notes/Array.md",
+    "pwd.md",
+    "Graphical-User-Interface.md",
+    "Command-Line-Interface.md",
+    "Terminal.md",
+    "reference-notes/Command-Line-A-modern-introduction.md",
+    "Shell.md",
+    "unfinished-notes/Union-find.md",
+    "unfinished-notes/System-design-preparation.md",
+    "unfinished-notes/Strategy-Pattern.md",
+    "unfinished-notes/Site-Reliability-Engineering.md",
+    "unfinished-notes/Service-Level-Objects.md",
+    "unfinished-notes/Service-Level-Indicators.md",
     "unfinished-notes/Operations.md",
+    "unfinished-notes/Offer-negotiation.md",
+    "unfinished-notes/Kubernetes-Pods.md",
+    "unfinished-notes/Kubernetes-Deployments.md",
+    "unfinished-notes/Go-Programming-Language.md",
     "unfinished-notes/Go-Concurrency-Patterns.md",
     "reference-notes/Computer-Organization-and-Design.md",
     "permanent-notes/Two-pointers.md",
@@ -198,23 +225,6 @@
     "Minimum-Window-Substring.md",
     "Sliding-Window-Maximum.md",
     "permanent-notes/Validate-Binary-Search-Tree.md",
-    "permanent-notes/Two-Sum.md",
-    "permanent-notes/Valid-Parentheses.md",
-    "permanent-notes/Valid-Palindrome.md",
-    "permanent-notes/Valid-Anagram.md",
-    "permanent-notes/Trie.md",
-    "permanent-notes/Tree.md",
-    "permanent-notes/Traverse-from-right.md",
-    "permanent-notes/Technical-interview-preparation.md",
-    "permanent-notes/Trapping-Rain-Water.md",
-    "permanent-notes/Topological-sorting.md",
-    "permanent-notes/Time-Based-Key-Value-Store.md",
-    "permanent-notes/Systems-software.md",
-    "permanent-notes/Super-linear-functions.md",
-    "permanent-notes/Suffix-tree.md",
-    "permanent-notes/String.md",
-    "permanent-notes/Stack.md",
-    "permanent-notes/Sorting-and-searching.md",
     "unfinished-notes",
     "daily-notes",
     "Untitled.canvas",
