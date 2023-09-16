@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pwd.md",
+                "file": "history.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "pwd.md",
+                "file": "history.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pwd.md",
+                "file": "history.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pwd.md",
+                "file": "history.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pwd.md"
+                "file": "history.md"
               }
             }
           },
@@ -199,13 +199,19 @@
   },
   "active": "9831b97c8510726e",
   "lastOpenFiles": [
+    "permanent-notes/Command-line-arguments.md",
+    "history.md",
+    "permanent-notes/Directory.md",
+    "permanent-notes/File.md",
+    "permanent-notes/pwd.md",
+    "permanent-notes/Terminal.md",
+    "permanent-notes/Shell.md",
+    "permanent-notes/Graphical-User-Interface.md",
+    "permanent-notes/Command-Line-Interface.md",
+    "permanent-notes/cd.md",
+    "permanent-notes/Shell-variables.md",
     "permanent-notes/Array.md",
-    "pwd.md",
-    "Graphical-User-Interface.md",
-    "Command-Line-Interface.md",
-    "Terminal.md",
     "reference-notes/Command-Line-A-modern-introduction.md",
-    "Shell.md",
     "unfinished-notes/Union-find.md",
     "unfinished-notes/System-design-preparation.md",
     "unfinished-notes/Strategy-Pattern.md",
@@ -219,12 +225,6 @@
     "unfinished-notes/Go-Programming-Language.md",
     "unfinished-notes/Go-Concurrency-Patterns.md",
     "reference-notes/Computer-Organization-and-Design.md",
-    "permanent-notes/Two-pointers.md",
-    "The-75-Questions.md",
-    "permanent-notes/Invert-Binary-Tree.md",
-    "Minimum-Window-Substring.md",
-    "Sliding-Window-Maximum.md",
-    "permanent-notes/Validate-Binary-Search-Tree.md",
     "unfinished-notes",
     "daily-notes",
     "Untitled.canvas",
