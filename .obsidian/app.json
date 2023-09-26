@@ -7,7 +7,7 @@
   "newFileLocation": "root",
   "attachmentFolderPath": "assets",
   "livePreview": false,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "defaultViewMode": "preview",
   "showInlineTitle": false
 }

@@ -38,14 +38,6 @@ Preparing for a technical interview realistically should take 2 to 3 months to f
 - [Interval](Interval.md)
 - [Dynamic-programming](Dynamic-programming.md)
 - [Binary](Binary.md)
-- [Math](Math.md)
-- [Geometry](Geometry.md)
-
-## Practice
-
-In addition to studying, it is also important to practice these data structures, algorithms, and techniques.
-
-[The 75 Questions](The-75-Questions.md)
 
 ---
 # References

@@ -39,7 +39,7 @@ func main(){
 
 ## Fan out, fan in
 
-Multiple functions reading from the same channel until that channel is closed. This enables a method to distribute work to a group of workers to paralellize CPU usage and I/O. Fan in is the merging the results of those workers.
+Multiple functions reading from the same channel until that channel is closed. This enables a method to distribute work to a group of workers to parallel CPU usage and I/O. Fan in is the merging the results of those workers.
 
 ```go
 // Stage 1

@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "permanent-notes/Site-Reliability-Engineering.md",
-                "mode": "source",
+                "file": "Standard-streams.md",
+                "mode": "preview",
+                "backlinks": false,
                 "source": true
               }
             }
@@ -93,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "permanent-notes/Site-Reliability-Engineering.md",
+                "file": "Standard-streams.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent-notes/Site-Reliability-Engineering.md",
+                "file": "Standard-streams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent-notes/Site-Reliability-Engineering.md",
+                "file": "Standard-streams.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "permanent-notes/Site-Reliability-Engineering.md"
+                "file": "Standard-streams.md"
               }
             }
           },
@@ -199,32 +200,32 @@
   },
   "active": "9831b97c8510726e",
   "lastOpenFiles": [
-    "Efficiency.md",
-    "permanent-notes/Site-Reliability-Engineering.md",
-    "unfinished-notes/Shell-expansion.md",
+    "permanent-notes/alias.md",
+    "Standard-streams.md",
+    "permanent-notes/history.md",
     "Service-Level-Objects.md",
     "Service-Level-Indicators.md",
+    "unfinished-notes/Kubernetes-Pods.md",
+    "unfinished-notes/Kubernetes-Deployments.md",
+    "permanent-notes/Go-Concurrency-Patterns.md",
+    "permanent-notes/Go-Programming-Language.md",
+    "unfinished-notes/Offer-negotiation.md",
+    "permanent-notes/Shell-expansion.md",
+    "unfinished-notes/Union-find.md",
+    "unfinished-notes/Strategy-Pattern.md",
+    "unfinished-notes/System-design-preparation.md",
+    "permanent-notes/Site-Reliability-Engineering.md",
+    "Efficiency.md",
     "permanent-notes/Emergency-response.md",
     "permanent-notes/Change-management.md",
     "permanent-notes/Capacity-planning.md",
     "permanent-notes/Monitoring.md",
     "Operations.md",
-    "unfinished-notes/Go-Concurrency-Patterns.md",
-    "unfinished-notes/Go-Programming-Language.md",
-    "unfinished-notes/Kubernetes-Deployments.md",
-    "unfinished-notes/Kubernetes-Pods.md",
     "reference-notes/SRE-Book.md",
     "reference-notes/Tech-Interview-Handbook.md",
-    "permanent-notes/history.md",
     "permanent-notes/Command-line-arguments.md",
     "permanent-notes/Directory.md",
     "permanent-notes/File.md",
-    "permanent-notes/pwd.md",
-    "permanent-notes/Terminal.md",
-    "permanent-notes/Shell.md",
-    "permanent-notes/Graphical-User-Interface.md",
-    "permanent-notes/Command-Line-Interface.md",
-    "permanent-notes/cd.md",
     "unfinished-notes",
     "daily-notes",
     "Untitled.canvas",

@@ -5,4 +5,3 @@ subject: [[]]
 
 - [Algorithms](Algorithms.md)
 - [Data-Structures](Data-Structures.md)
-- [Big-Oh-Notation](Big-Oh-Notation.md)

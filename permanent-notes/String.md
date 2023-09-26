@@ -1,16 +1,18 @@
 type: #idea
 subject: [Data-Structures](Data-Structures.md)
+
 <!-- Subject should be a hub note -->
+
 # String
 
 Strings are character arrays and share a lot of similarities with [arrays](Array.md) as shown in their relative time complexity.
 
 | Operation | Big-O |
-|-----------|-------|
-| Access | O(1) |
-| Search | O(n) |
-| Insert | O(n) |
-| Remove | O(n) |
+| --------- | ----- |
+| Access    | O(1)  |
+| Search    | O(n)  |
+| Insert    | O(n)  |
+| Remove    | O(n)  |
 
 ## Common data-structures for looking up strings
 
@@ -24,13 +26,13 @@ Strings are character arrays and share a lot of similarities with [arrays](Array
 
 ## Multi-string operations
 
-| Operation | Big-O | Note |
-|-----------|-------|------|
-| Find sub-string | O(n * m) | Most naive case. KMP and Rabin Karp are more efficient |
-| Concatenate | O(n + m) | |
-| Slice | O(m) | |
-| Split | O(n + m) | Split by using some character token |
-| Strip | O(n) | Remove leading and trailing whitespace |
+| Operation       | Big-O     | Note                                                   |
+| --------------- | --------- | ------------------------------------------------------ |
+| Find sub-string | O(n \* m) | Most naive case. KMP and Rabin Karp are more efficient |
+| Concatenate     | O(n + m)  |                                                        |
+| Slice           | O(m)      |                                                        |
+| Split           | O(n + m)  | Split by using some character token                    |
+| Strip           | O(n)      | Remove leading and trailing whitespace                 |
 
 ## Common edge cases
 
@@ -53,14 +55,3 @@ To determine if two strings are anagrams of one another, sort them and compare t
 
 To determine if a string is a palindrome, reverse it and compare the two strings. It is also possible to use two pointers at either end of the string and move them inward, comparing character by character until they meet.
 
-## Practice
-
-- [Valid-Anagram](Valid-Anagram.md)
-- [Valid-Palindrome](Valid-Palindrome.md)
-- [Longest-Substring-Without-Repeating-Characters](Longest-Substring-Without-Repeating-Characters.md)
-- [[Longest-Repeating-Character-Replacement]]
-- [[Find-All-Anagrams-in-a-String]]
-- [Minimum-Window-Substring](Minimum-Window-Substring.md)
-- [[Group-Anagrams]]
-- [[Longest-Palindrome-Substring]]
-- [[Encode-and-Decode-Strings]]

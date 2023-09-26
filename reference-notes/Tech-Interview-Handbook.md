@@ -13,5 +13,3 @@ This guide is intended to provide a quick overview of tips on how to prepare for
 
 - [Getting the interview](Getting-the-interview.md)
 - [Technical interview preparation](Technical-interview-preparation.md)
-- [System design preparation](System-design-preparation.md)
-- [Offer negotiation](Offer-negotiation.md)
