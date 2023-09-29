@@ -20,6 +20,26 @@ To redirect a specific stream, prepend the operators with the stream descriptor.
 ```bash
 # redirect stderr to error.log
 python script.py 2> error.log
+# redirect stdout and stderr
+python script.py 1> output.txt 2> error.log
+python script.py &> script.log
+# discard streams
+python script.py &> /dev/null
+```
+
+Streams can also be piped to the stdin of another command.
+
+```bash
+echo "Hello" | sed "s/Hello/World/"
+```
+
+Standard input can also be redirected.
+
+```bash
+cat << END
+line one
+line two
+END
 ```
 
 ---

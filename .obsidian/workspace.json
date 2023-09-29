@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard-streams.md",
-                "mode": "preview",
+                "file": "unfinished-notes/Big-Oh-Notation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Standard-streams.md",
+                "file": "unfinished-notes/Big-Oh-Notation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -117,7 +117,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.5802469135802455,
+                  "scale": 1.0534979423868303,
                   "close": true
                 }
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Standard-streams.md",
+                "file": "unfinished-notes/Big-Oh-Notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Standard-streams.md",
+                "file": "unfinished-notes/Big-Oh-Notation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Standard-streams.md"
+                "file": "unfinished-notes/Big-Oh-Notation.md"
               }
             }
           },
@@ -198,13 +198,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9831b97c8510726e",
+  "active": "b4081df31b073ba1",
   "lastOpenFiles": [
+    "permanent-notes/Anonymous-Functions.md",
+    "unfinished-notes/Big-Oh-Notation.md",
     "permanent-notes/alias.md",
-    "Standard-streams.md",
-    "permanent-notes/history.md",
-    "Service-Level-Objects.md",
+    "permanent-notes/Algorithms.md",
+    "permanent-notes/Command-substitution.md",
+    "permanent-notes/Logical-operators.md",
+    "README.md",
     "Service-Level-Indicators.md",
+    "Service-Level-Objects.md",
+    "permanent-notes/Standard-streams.md",
+    "permanent-notes/xargs.md",
+    "permanent-notes/tee.md",
+    "permanent-notes/history.md",
     "unfinished-notes/Kubernetes-Pods.md",
     "unfinished-notes/Kubernetes-Deployments.md",
     "permanent-notes/Go-Concurrency-Patterns.md",
@@ -218,14 +226,6 @@
     "Efficiency.md",
     "permanent-notes/Emergency-response.md",
     "permanent-notes/Change-management.md",
-    "permanent-notes/Capacity-planning.md",
-    "permanent-notes/Monitoring.md",
-    "Operations.md",
-    "reference-notes/SRE-Book.md",
-    "reference-notes/Tech-Interview-Handbook.md",
-    "permanent-notes/Command-line-arguments.md",
-    "permanent-notes/Directory.md",
-    "permanent-notes/File.md",
     "unfinished-notes",
     "daily-notes",
     "Untitled.canvas",
