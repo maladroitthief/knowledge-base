@@ -1,6 +1,6 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
@@ -17,6 +17,7 @@ CPU execution time is the time spent by the processor to complete a task
 The time spent on the program itself
 
 ### System CPU time
+
 The time spent in the operating system on behalf of a program
 
 ## References

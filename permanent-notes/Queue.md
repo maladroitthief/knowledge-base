@@ -1,20 +1,20 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
 # Queue
 
-A linear data structure that is modified by adding elements to one end and removing them from the other. 
+A linear data structure that is modified by adding elements to one end and removing them from the other.
 
 | Operation | Big-O |
-|-----------|-------|
-| Enqueue | O(1) |
-| Dequeue | O(1) |
-| Front | O(1) |
-| Back | O(1) |
-| isEmpty | O(1) |
+| --------- | ----- |
+| Enqueue   | O(1)  |
+| Dequeue   | O(1)  |
+| Front     | O(1)  |
+| Back      | O(1)  |
+| isEmpty   | O(1)  |
 
 ---
 

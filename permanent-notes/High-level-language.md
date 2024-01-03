@@ -1,6 +1,6 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
@@ -12,4 +12,3 @@ A programming language that can be compiled into assembly language and then asse
 
 - [Software-Engineering](Software-Engineering.md)
 - [Computer-Organization-and-Design](Computer-Organization-and-Design.md)
-

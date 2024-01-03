@@ -1,6 +1,6 @@
 ---
 tags:
- - reference
+  - reference
 aliases:
 ---
 

@@ -1,10 +1,11 @@
 ---
 tags:
- - hub
+  - hub
 aliases:
 ---
 
 # Computational-technique
+
 <!--
 	This can be empty
 	This can be an index

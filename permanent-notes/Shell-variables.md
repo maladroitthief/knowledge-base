@@ -1,12 +1,12 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
 # Shell-variables
 
-Shell variables are variables that are only applied to the current shell instance. 
+Shell variables are variables that are only applied to the current shell instance.
 
 ```bash
 var=TestVar

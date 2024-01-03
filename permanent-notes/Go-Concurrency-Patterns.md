@@ -1,6 +1,6 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
@@ -8,7 +8,7 @@ aliases:
 
 ## Pipeline
 
-A series of stages connected by channels. 
+A series of stages connected by channels.
 
 ```go
 func gen(nums ...int) <-chan int{
@@ -105,7 +105,7 @@ func main(){
 	// close it when the pipeline exits
 	done := make(chan struct{})
 	defer close(done)
-	
+
 	in := gen(done, 2, 4)
 	// distribute work between two goroutines
 	c1 := square(done, in)

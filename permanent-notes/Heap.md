@@ -1,6 +1,6 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
@@ -13,12 +13,12 @@ A heap is a [Tree](Tree.md) data structure that is complete, or every level is f
 
 Heaps can be valuable when it is necessary to remove nodes with either the highest or lowest priority or when inserts are mixed with removals of the root node.
 
-| Operation | Big-O |
-|-----------|-------|
-| Find max/min | O(1) |
-| Insert | O(log(n)) |
-| Remove | O(log(n)) |
-| Create | O(n) |
+| Operation    | Big-O     |
+| ------------ | --------- |
+| Find max/min | O(1)      |
+| Insert       | O(log(n)) |
+| Remove       | O(log(n)) |
+| Create       | O(n)      |
 
 ## Examples
 
@@ -30,7 +30,7 @@ Using the [heap package](https://pkg.go.dev/container/heap)
 type Heap []int
 
 func (h Heap) Len() int {
-	return len(h)	
+	return len(h)
 }
 
 func (h Heap) Less(i int, j int) bool {

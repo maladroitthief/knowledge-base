@@ -1,11 +1,10 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
 # KMP Algorithm
-
 
 Knuth-Morris-Pratt (KMP) is an algorithm for pattern matching in a string similar to the [Sliding-window](Sliding-window.md) technique. The primary difference in KMP is that the algorithm does not backtrack on the text string and instead creates a lookup up index in the pattern string.
 
@@ -37,7 +36,7 @@ def search(pattern, text):
             else:
                 j += 1
     return results
- 
+
 def setup_lps(pattern) -> List[int]:
     lps = [0] * len(pattern)
     prefixPointer = 0

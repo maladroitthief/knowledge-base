@@ -1,6 +1,6 @@
 ---
 tags:
- - hub
+  - hub
 aliases:
 ---
 

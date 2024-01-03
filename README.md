@@ -1,7 +1,7 @@
 ---
 tags:
   - hub
-aliases: 
+aliases:
 ---
 
 # knowledge-base

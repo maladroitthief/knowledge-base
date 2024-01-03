@@ -1,12 +1,12 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
 # SOLID-principles
 
-The SOLID principles in software engineering are five design principles that are intended to make software flexible, maintainable, and easier to read. 
+The SOLID principles in software engineering are five design principles that are intended to make software flexible, maintainable, and easier to read.
 
 - [Single-responsibility principle](Single-responsibility-principle.md)
 - [Open-closed principle](Open-closed-principle.md)

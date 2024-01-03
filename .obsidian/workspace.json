@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unfinished-notes/Kubernetes-Pods.md",
-                "mode": "source",
+                "file": "permanent-notes/Logical-operators.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "unfinished-notes/Kubernetes-Pods.md",
+                "file": "permanent-notes/Logical-operators.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unfinished-notes/Kubernetes-Pods.md",
+                "file": "permanent-notes/Logical-operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unfinished-notes/Kubernetes-Pods.md",
+                "file": "permanent-notes/Logical-operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unfinished-notes/Kubernetes-Pods.md"
+                "file": "permanent-notes/Logical-operators.md"
               }
             }
           },
@@ -235,8 +235,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0107b3ed3d883f1",
+  "active": "9831b97c8510726e",
   "lastOpenFiles": [
+    "permanent-notes/Go-Programming-Language.md",
+    "unfinished-notes/Kubernetes-Pods.md",
     "unfinished-notes/Kubernetes-Deployments.md",
     "unfinished-notes/Big-Oh-Notation.md",
     "permanent-notes/xargs.md",
@@ -261,8 +263,6 @@
     "permanent-notes/Site-Reliability-Engineering.md",
     "permanent-notes/Single-responsibility-principle.md",
     "permanent-notes/Shell-variables.md",
-    "permanent-notes/Shell-expansion.md",
-    "permanent-notes/Shell.md",
     "assets",
     "unfinished-notes",
     "daily-notes",

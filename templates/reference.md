@@ -1,11 +1,11 @@
 ---
 tags:
- - reference
+  - reference
 aliases:
 ---
 
 # {{title}}
 
-Author: 
-Source: 
-Published: 
+Author:
+Source:
+Published:

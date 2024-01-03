@@ -1,6 +1,6 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
@@ -8,11 +8,11 @@ aliases:
 
 Logical operators can be used as conditional logic for connecting commands together
 
-| Operator | Outcome |
-| -------- | ------- |
-| `&&` | Will run the next command if the first one succeeded |
-| `||` | Will run the next command if the first one failed |
-| `;` | Will run both commands regardless of the outcome |
+| Operator | Outcome                                              |
+| -------- | ---------------------------------------------------- |
+| &&       | Will run the next command if the first one succeeded |
+| \|\|     | Will run the next command if the first one failed    |
+| ;        | Will run both commands regardless of the outcome     |
 
 ## References
 

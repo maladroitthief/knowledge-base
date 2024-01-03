@@ -1,6 +1,6 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
@@ -44,7 +44,7 @@ Longer strings of command line arguments can be split into multiple lines
 ```bash
 ls \
 -a \
--l 
+-l
 ```
 
 ## References

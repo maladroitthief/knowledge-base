@@ -1,6 +1,6 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
@@ -11,16 +11,16 @@ A trie is a [Tree](Tree.md) structure where each edge represents one character a
 ## Time complexity
 
 | Operation | Big-O |
-|-----------|-------|
-| Insert | O(n) |
-| Search | O(n) |
+| --------- | ----- |
+| Insert    | O(n)  |
+| Search    | O(n)  |
 
 ## Auxiliary space
 
-| Operation | Big-O | Notes |
-|-----------|-------|-------|
-| Insert | O(m * n) | m is the Alphabet size * key length |
-| Search | O(1) | |
+| Operation | Big-O     | Notes                                |
+| --------- | --------- | ------------------------------------ |
+| Insert    | O(m \* n) | m is the Alphabet size \* key length |
+| Search    | O(1)      |                                      |
 
 This is a trie of "there", "their", "when" and "was"
 
@@ -53,18 +53,18 @@ class TrieNode:
 	def __init__(self):
 		self.children = [None]*ALPHABET_SIZE
 		self.isEndOfWord = False
-		
+
 class Trie
 	def __init__(self):
 		self.root = self.getNode()
-		
+
 	def getNode(self) -> TrieNode:
 		return TrieNode()
-		
+
 	def _charToIndex(self, ch) -> int:
 		# converts ch to index
 		return ord(ch) - ord('a')
-		
+
 	def insert(self, key):
 		pointerIndex = self.root
 		length = len(key)
@@ -74,7 +74,7 @@ class Trie
 				pointerIndex.children[index] = self.getNode()
 			pointerIndex = pointerIndex.children[index]
 		pointerIndex.isEndOfWord = True
-		
+
 	def search(self, key) -> bool:
 		pointerIndex = self.root
 		length = len(key)

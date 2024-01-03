@@ -1,7 +1,7 @@
 ---
 tags:
- - idea
- - todo
+  - idea
+  - todo
 aliases:
 ---
 

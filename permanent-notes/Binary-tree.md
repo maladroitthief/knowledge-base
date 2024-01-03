@@ -1,6 +1,6 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
@@ -34,11 +34,11 @@ flowchart TD
 ```
 
 - **In-order traversal:** Left -> Root -> Right
-	- 2, 7, 5, 6, 11, 1, 9, 5, 9
+  - 2, 7, 5, 6, 11, 1, 9, 5, 9
 - **Pre-order traversal:** Root -> Left -> Right
-	- 1, 7, 2, 6, 5, 11, 9, 9, 5
+  - 1, 7, 2, 6, 5, 11, 9, 9, 5
 - **Post-order traversal:** Left -> Right -> Root
-	- 2, 5, 11, 6, 7, 5, 9, 9, 1
+  - 2, 5, 11, 6, 7, 5, 9, 9, 1
 
 ## References
 

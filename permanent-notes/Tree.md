@@ -1,6 +1,6 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
@@ -8,7 +8,7 @@ aliases:
 
 Trees are hierarchical data structures that are made up of a series of nodes. Each node can have many children but needs to have one parent. If a node does not have a parent, it is considered to be a root node.
 
-Trees can also be considered as a undirected, connect, acyclic [Graph](Graph.md). 
+Trees can also be considered as a undirected, connect, acyclic [Graph](Graph.md).
 
 ## Common terms
 

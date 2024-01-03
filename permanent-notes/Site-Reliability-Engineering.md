@@ -1,7 +1,7 @@
 ---
 tags:
- - hub
- - todo
+  - hub
+  - todo
 aliases:
 ---
 

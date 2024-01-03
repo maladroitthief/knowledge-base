@@ -1,12 +1,12 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
 # cd
 
-Change directory. Works with the [Directory](Directory.md) path special characters 
+Change directory. Works with the [Directory](Directory.md) path special characters
 
 ```bash
 # navigates to the workspace directory

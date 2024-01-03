@@ -1,6 +1,6 @@
 ---
 tags:
- - idea
+  - idea
 aliases:
 ---
 
@@ -12,15 +12,16 @@ A binary-search tree (BST) is a [Binary-tree](Binary-tree.md) that gives all the
 
 BSTs are useful because of their time complexity.
 
-| Operation | Big-O |
-|-----------|-------|
-| Access | O(log(n)) |
-| Search | O(log(n)) |
-| Insert | O(log(n)) |
-| Remove | O(log(n)) |
+| Operation | Big-O     |
+| --------- | --------- |
+| Access    | O(log(n)) |
+| Search    | O(log(n)) |
+| Insert    | O(log(n)) |
+| Remove    | O(log(n)) |
 
 The space complexity of traversing balanced trees is O(h) where h is the height of the tree.
 
 ## References
+
 - [Data-Structures](Data-Structures.md)
 - [Tech-Interview-Handbook](Tech-Interview-Handbook.md)
