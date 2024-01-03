@@ -1,6 +1,9 @@
-type: #idea
-subject: [Data Structures](Data-Structures.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Array
 
 An array is a collection of items that are held in order at a specific index. They are useful for storing objects of the same type in a single variable and it is very quick to access elements if you have the index. It should also be said that adding or removing objects to the middle of an array can be a slow process. 
@@ -30,3 +33,6 @@ An array is a collection of items that are held in order at a specific index. Th
 - [Index as hash key](Index-as-hash-key.md)
 - [Traversing multiple times](Traversing-multiple-times)
 
+## References
+
+- [Data Structures](Data-Structures.md)

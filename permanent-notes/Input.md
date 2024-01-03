@@ -1,6 +1,9 @@
-type: #idea
-subject: [Software-Engineering](Software-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Input
 
 <!--
@@ -10,7 +13,7 @@ subject: [Software-Engineering](Software-Engineering.md)
 	Link to other ideas
 -->
 
----
-# References
-<!-- What references back up this idea -->
-[Computer-Organization-and-Design](Computer-Organization-and-Design.md)
+## References
+
+- [Software-Engineering](Software-Engineering.md)
+- [Computer-Organization-and-Design](Computer-Organization-and-Design.md)

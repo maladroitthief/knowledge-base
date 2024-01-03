@@ -1,6 +1,9 @@
-type: #reference
-subject: [Site-Reliability-Engineering](Site-Reliability-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - reference
+aliases:
+---
+
 # Site Reliability Engineering
 
 Author: Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy

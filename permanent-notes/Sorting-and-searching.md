@@ -1,6 +1,9 @@
-type: #idea
-subject: [Algorithms](Algorithms.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Sorting and searching
 
 Sorting is the act of rearranging a sequence in some known order such as numerical or lexicographical that is either ascending or descending. Sorting arrays are valuable as they enable binary searching which is faster than [linear time](Linear-functions.md).
@@ -33,6 +36,7 @@ Sorting is the act of rearranging a sequence in some known order such as numeric
 - Sequence with two elements
 - Sequence with duplicate elements
 
----
-# References
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+
+- [Algorithms](Algorithms.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

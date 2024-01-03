@@ -1,6 +1,9 @@
-type: #idea
-subject: [Number-systems](Number-systems.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Binary
 
 Binary is a base 2 number system that is used in machine code. It can be handy at times to transform data to binary or to preform bit-wise operations.
@@ -71,7 +74,7 @@ num2 ^= num1
 num1 ^= num2
 ```
 
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+
+- [Number-systems](Number-systems.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

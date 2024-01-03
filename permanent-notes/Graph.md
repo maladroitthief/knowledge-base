@@ -1,6 +1,9 @@
-type: #idea
-subject: [Data-Structures](Data-Structures.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Graph
 
 A graph is a collection of nodes that are connected to each other by edges. Edges can be either directed (one-way) or undirected and they can also have weights (values). A tree can be considered an undirected graph with no cycles.
@@ -32,7 +35,7 @@ A graph is a collection of nodes that are connected to each other by edges. Edge
 - [Breadth-first-search](Breadth-first-search.md)
 - [Topological-sorting](Topological-sorting.md)
 
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+
+- [Data-Structures](Data-Structures.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

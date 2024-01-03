@@ -1,6 +1,9 @@
-type: #idea
-subject: [Linux](Linux.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Command Line Interface
 
 A terminal used for interacting with an operating system. CLI applications can be very useful for a variety of reasons:
@@ -10,7 +13,7 @@ A terminal used for interacting with an operating system. CLI applications can b
 - Can be automated using scripting or schedulers
 - Easy to write
 
----
-# References
-<!-- What references back up this idea -->
-[Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)
+## References
+
+- [Linux](Linux.md)
+- [Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)

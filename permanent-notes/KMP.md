@@ -1,6 +1,9 @@
-type: #idea
-subject: [Algorithms](Algorithms.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # KMP Algorithm
 
 
@@ -103,3 +106,7 @@ func setupLPS(pattern string) []int {
 	return lps
 }
 ```
+
+## References
+
+- [Algorithms](Algorithms.md)

@@ -1,6 +1,9 @@
-type: #idea
-subject: [Site-Reliability-Engineering](Site-Reliability-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Emergency response
 
 Reliability is a function of Mean Time To Failure (MTTF) and Mean Time To Repair (MTTR).
@@ -10,7 +13,7 @@ Reliability is a function of Mean Time To Failure (MTTF) and Mean Time To Repair
 
 Involving humans in emergency response will always add latency to the MTTR.
 
----
-# References
-<!-- What references back up this idea -->
-[SRE-Book](SRE-Book.md)
+## References
+
+- [Site-Reliability-Engineering](Site-Reliability-Engineering.md)
+- [SRE-Book](SRE-Book.md)

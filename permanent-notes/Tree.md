@@ -1,6 +1,9 @@
-type: #idea
-subject: [Data-Structures](Data-Structures.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Tree
 
 Trees are hierarchical data structures that are made up of a series of nodes. Each node can have many children but needs to have one parent. If a node does not have a parent, it is considered to be a root node.
@@ -33,7 +36,7 @@ Trees can also be considered as a undirected, connect, acyclic [Graph](Graph.md)
 - Search
 - Height
 
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+
+- [Data-Structures](Data-Structures.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

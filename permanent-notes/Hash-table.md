@@ -1,6 +1,9 @@
-type: #idea
-subject: [Data-Structures](Data-Structures.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Hash table
 
 A hash table is a data structure that can map keys to values using a hash function. It does this by computing an index using the hash function and stores the value in an array.
@@ -14,7 +17,7 @@ A hash table is a data structure that can map keys to values using a hash functi
 
 To be clear, the $O(1)$ is average case as it depends on the underlying hash function, but in most instances it is safe to assume average case.
 
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+
+- [Data-Structures](Data-Structures.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

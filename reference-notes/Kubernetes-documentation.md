@@ -1,6 +1,9 @@
-type: #reference
-subject: [Kubernetes](Kubernetes.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - reference
+aliases:
+---
+
 # Kubernetes-documentation
 
 Author: CNCF

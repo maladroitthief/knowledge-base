@@ -1,6 +1,9 @@
-type: #idea
-subject: [Go-Programming-Language](Go-Programming-Language.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Go-Concurrency-Patterns
 
 ## Pipeline
@@ -92,7 +95,7 @@ func merge (done <-chan struct{}, cs ...<-chan int) <-chan int{
 	// Close out when all other goroutines have finished
 	go func() {
 		wg.Wait()
-		close(out)	
+		close(out)
 	}
 	return out
 }
@@ -113,3 +116,6 @@ func main(){
 }
 ```
 
+## References
+
+- [Go-Programming-Language](Go-Programming-Language.md)

@@ -1,6 +1,9 @@
-type: #idea
-subject: [Linux](Linux.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # tee
 
 The tee command reads from [`stdin`](Standard-streams.md) and writes to both `stdout` and one or more files.
@@ -9,7 +12,7 @@ The tee command reads from [`stdin`](Standard-streams.md) and writes to both `st
 df -h | tee disk_usage.txt
 ```
 
----
-# References
-<!-- What references back up this idea -->
-[Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)
+## References
+
+- [Linux](Linux.md)
+- [Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)

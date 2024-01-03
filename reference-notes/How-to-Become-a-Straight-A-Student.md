@@ -1,5 +1,8 @@
-type: #reference
-subject: [Note-Taking](Note-Taking.md)
+---
+tags:
+ - reference
+aliases:
+---
 
 # How to Become a Straight-A Student
 

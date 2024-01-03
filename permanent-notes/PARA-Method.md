@@ -1,5 +1,8 @@
-type: #idea
-subject: [Digital-Organization](Digital-Organization.md)
+---
+tags:
+ - idea
+aliases:
+---
 
 # PARA Method
 
@@ -17,6 +20,7 @@ PARA has four categories at the top level to encompass all subjects or ideas.
 
 The order of these folders is intentional depending on how actionable the ideas should be. In theory you are mean to spend more time in Projects and Areas than you would Resources and Archives.
 
----
-# References
-[The-PARA-Method](The-PARA-Method.md)
+## References
+
+- [Digital-Organization](Digital-Organization.md)
+- [The-PARA-Method](The-PARA-Method.md)

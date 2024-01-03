@@ -1,6 +1,9 @@
-type: #idea
-subject: [Data-Structures](Data-Structures.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Trie
 
 A trie is a [Tree](Tree.md) structure where each edge represents one character and the root is null. Each path from the root represents a string, described by the characters labeling the traversed edges.
@@ -135,6 +138,7 @@ func (t *Trie) Search(key string) bool {
 }
 ```
 
-## Reference
+## References
 
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+- [Data-Structures](Data-Structures.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

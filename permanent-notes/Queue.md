@@ -1,6 +1,9 @@
-type: #idea
-subject: [Data-Structures](Data-Structures.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Queue
 
 A linear data structure that is modified by adding elements to one end and removing them from the other. 
@@ -47,6 +50,7 @@ queue.Front()
 queue.Back()
 ```
 
-# References
+## References
 
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+- [Data-Structures](Data-Structures.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

@@ -1,6 +1,9 @@
-type: #idea
-subject: [Algorithms](Algorithms.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Binary search
 
 Given an array of integers `nums` which is sorted in ascending order, and an integer `target`, write a function to search `target` in `nums`. If `target` exists, then return its index. Otherwise, return `-1`.
@@ -33,9 +36,9 @@ func search(nums []int, target int) int {
 }
 ```
 
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
-[The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)
-[LeetCode](https://leetcode.com/problems/binary-search/)
+## References
+
+- [Algorithms](Algorithms.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+- [The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)
+- [LeetCode](https://leetcode.com/problems/binary-search/)

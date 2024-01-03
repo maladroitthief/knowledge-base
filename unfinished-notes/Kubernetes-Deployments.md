@@ -1,9 +1,12 @@
-type: #idea
-subject: [Kubernetes](Kubernetes.md)
+---
+tags:
+ - idea
+ - todo
+aliases:
+---
 
 # Kubernetes-Deployments
 
-#todo
 <!--
 	Write three to five sentences in your own words
 	Assume that the reader will have no context
@@ -11,6 +14,7 @@ subject: [Kubernetes](Kubernetes.md)
 	Link to other ideas
 -->
 
----
-# References
-[Kubernetes-documentation](Kubernetes-documentation.md)
+## References
+
+- [Kubernetes](Kubernetes.md)
+- [Kubernetes-documentation](Kubernetes-documentation.md)

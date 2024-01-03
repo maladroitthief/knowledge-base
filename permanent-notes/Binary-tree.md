@@ -1,6 +1,9 @@
-type: #idea
-subject: [Data-Structures](Data-Structures.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Binary tree
 
 A binary tree is a tree where each node has a max of two children. A complete binary tree is a binary tree where every level is completely filled. A balance binary tree is a binary tree where the right and left sub-trees of every node differ by no more than 1 level.
@@ -37,7 +40,7 @@ flowchart TD
 - **Post-order traversal:** Left -> Right -> Root
 	- 2, 5, 11, 6, 7, 5, 9, 9, 1
 
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+
+- [Data-Structures](Data-Structures.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

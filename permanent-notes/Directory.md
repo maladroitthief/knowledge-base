@@ -1,6 +1,9 @@
-type: #idea
-subject: [Linux](Linux.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Directory
 
 Directories are files that store other files.
@@ -31,7 +34,7 @@ The following are common root level directories
 | /usr | user related programs |
 | /var | log files |
 
----
-# References
-<!-- What references back up this idea -->
-[Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)
+## References
+
+- [Linux](Linux.md)
+- [Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)

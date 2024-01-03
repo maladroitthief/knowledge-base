@@ -1,6 +1,9 @@
-type: #idea
-subject: [Computational-technique](Computational-technique.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Dynamic-programming
 
 Dynamic programming is a technique for efficiently implementing a recursive algorithm by storing partial results. This is helpful because it allows for an exhaustive search without processing the same partial result over and over. It is important to know that this is a trade off of time complexity for space.
@@ -52,8 +55,8 @@ func fib(n int){
 }
 ```
 
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
-[The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)
+## References
+
+- [Computational-technique](Computational-technique.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+- [The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)

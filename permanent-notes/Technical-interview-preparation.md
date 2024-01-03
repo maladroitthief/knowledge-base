@@ -1,6 +1,9 @@
-type: #idea
-subject: [Software-Engineering](Software-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Technical interview preparation
 
 Technical interviews are used for determining a potential software engineer's competence, typically by using questions focused on algorithms and data structures. These interviews can take anywhere from 30 minutes to 2 hours depending on the format.
@@ -39,7 +42,7 @@ Preparing for a technical interview realistically should take 2 to 3 months to f
 - [Dynamic-programming](Dynamic-programming.md)
 - [Binary](Binary.md)
 
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+
+- [Software-Engineering](Software-Engineering.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

@@ -5,8 +5,51 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#todo",
+      "color": {
+        "a": 1,
+        "rgb": 14724968
+      }
+    },
+    {
+      "query": "tag:#hub",
+      "color": {
+        "a": 1,
+        "rgb": 8037111
+      }
+    },
+    {
+      "query": "tag:#reference",
+      "color": {
+        "a": 1,
+        "rgb": 16217742
+      }
+    },
+    {
+      "query": "path:assets",
+      "color": {
+        "a": 1,
+        "rgb": 7592650
+      }
+    },
+    {
+      "query": "tag:#idea",
+      "color": {
+        "a": 1,
+        "rgb": 12634869
+      }
+    },
+    {
+      "query": "path:unfinished-notes  ",
+      "color": {
+        "a": 1,
+        "rgb": 12294903
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.8810869853757364,
+  "scale": 0.5730745245158695,
   "close": true
 }

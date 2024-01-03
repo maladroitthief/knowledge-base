@@ -1,6 +1,9 @@
-type: #idea
-subject: [Data-Structures](Data-Structures.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Matrix
 
 A matrix is a 2-d array data structure that could be considered a type of [graph](Graph.md).
@@ -52,7 +55,7 @@ for i := range transpose {
 }
 ```
 
----
-# References
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
-<!-- What references back up this idea -->
+## References
+
+- [Data-Structures](Data-Structures.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

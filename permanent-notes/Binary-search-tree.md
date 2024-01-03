@@ -1,6 +1,9 @@
-type: #idea
-subject: [Data-Structures](Data-Structures.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Binary-search-tree
 
 A binary-search tree (BST) is a [Binary-tree](Binary-tree.md) that gives all the elements in order when it is traversed in order. In-order traversal being:
@@ -18,8 +21,6 @@ BSTs are useful because of their time complexity.
 
 The space complexity of traversing balanced trees is O(h) where h is the height of the tree.
 
-
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+- [Data-Structures](Data-Structures.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

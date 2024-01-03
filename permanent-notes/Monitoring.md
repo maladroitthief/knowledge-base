@@ -1,6 +1,9 @@
-type: #idea
-subject: [Site-Reliability-Engineering](Site-Reliability-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Monitoring
 
 Monitoring is the primary method to keep track of a systems health and availability. Monitoring ideally should be interpreted by software systems, not by humans.
@@ -17,7 +20,7 @@ Tickets should only be generated when there is action required, but not urgently
 
 Logging should be generated when there is no action required, but there needs to be a record for diagnostic purposes
 
----
-# References
-<!-- What references back up this idea -->
-[SRE-Book](SRE-Book.md)
+## References
+
+- [Site-Reliability-Engineering](Site-Reliability-Engineering.md)
+- [SRE-Book](SRE-Book.md)

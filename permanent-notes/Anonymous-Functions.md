@@ -1,6 +1,9 @@
-type: #idea
-subject: [Software-Engineering](Software-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Anonymous-Functions
 
 An anonymous function is a function with no name, usually defined inside the scope of another function.
@@ -39,3 +42,7 @@ func counter() func() {
 	}
 }
 ```
+
+## References
+
+- [Software-Engineering](Software-Engineering.md)

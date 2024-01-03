@@ -1,6 +1,9 @@
-type: #reference
-subject: [[]]
-<!-- Subject should be a hub note -->
+---
+tags:
+ - reference
+aliases:
+---
+
 # {{title}}
 
 Author: 

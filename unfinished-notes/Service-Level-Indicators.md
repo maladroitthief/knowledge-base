@@ -1,6 +1,9 @@
-type: #idea
-subject: [Site-Reliability-Engineering](Site-Reliability-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Service Level Indicators
 
 A service level indicator (SLI) is a measurement of the level of service being provided. An SLI ranges from 0% - 100% where 0 means nothing works and 100 means nothing is broken. This consistency is useful for tooling and alerting.
@@ -43,6 +46,6 @@ Another technique for getting started with SLIs is to break a system down into t
 - Number of “stock check count” requests from product searches that used stock data fresher than 10 minutes / total number of stock check requests
 - Number of “good user minutes” according to some extended list of criteria for that metric / total number of user minutes
 
----
-# References
-<!-- What references back up this idea -->
+## References
+
+- [Site-Reliability-Engineering](Site-Reliability-Engineering.md)

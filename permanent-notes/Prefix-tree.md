@@ -1,6 +1,9 @@
-type: #idea
-subject: [Data-Structures](Data-Structures.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+ - idea
+aliases:
+---
+
 # Prefix tree
 
 An implementation of a [Trie](Trie.md) but instead of holding characters on the edges, we instead hold sub-strings of the inserted string going from left to right.
@@ -70,3 +73,7 @@ func (t *Trie) Prefix(key string) bool {
 	return true
 }
 ```
+
+## References
+
+- [Data-Structures](Data-Structures.md)
