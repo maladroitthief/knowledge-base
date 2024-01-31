@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "permanent-notes/Logical-operators.md",
-                "mode": "preview",
+                "file": "Shell-script.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "permanent-notes/Logical-operators.md",
+                "file": "Shell-script.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -153,7 +153,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 1.0534979423868303,
-                  "close": false
+                  "close": true
                 }
               }
             }
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent-notes/Logical-operators.md",
+                "file": "Shell-script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent-notes/Logical-operators.md",
+                "file": "Shell-script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "permanent-notes/Logical-operators.md"
+                "file": "Shell-script.md"
               }
             }
           },
@@ -235,8 +235,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9831b97c8510726e",
+  "active": "b0107b3ed3d883f1",
   "lastOpenFiles": [
+    "permanent-notes/Shell.md",
+    "Shell-script.md",
+    "permanent-notes/Logical-operators.md",
     "permanent-notes/Go-Programming-Language.md",
     "unfinished-notes/Kubernetes-Pods.md",
     "unfinished-notes/Kubernetes-Deployments.md",
@@ -260,9 +263,6 @@
     "permanent-notes/SOLID-principles.md",
     "permanent-notes/Software-Engineering.md",
     "permanent-notes/Sliding-window.md",
-    "permanent-notes/Site-Reliability-Engineering.md",
-    "permanent-notes/Single-responsibility-principle.md",
-    "permanent-notes/Shell-variables.md",
     "assets",
     "unfinished-notes",
     "daily-notes",
