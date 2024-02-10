@@ -1,7 +1,7 @@
 /*Fonts*/
 :root {
   /*
-    If the font isn't installed in the system, 
+    If the font isn't installed in the system,
     it will go down the list until it finds on that is.
     */
 
@@ -303,8 +303,21 @@
 
 a.external-link {
   filter: none;
+<<<<<<< Updated upstream
   background-image: none;
   padding-right: 0;
+=======
+  background-image: unset;
+  padding-right: 0;
+}
+
+a.external-link::after {
+  content: url(public/images/874d8b8e340f75575caa.svg);
+  filter: var(--external-link-filter);
+  padding-left: 2.5px;
+  bottom: -1px;
+  position: relative;
+>>>>>>> Stashed changes
 }
 
 /* notice */
@@ -370,24 +383,24 @@ span.cm-hmd-frontmatter.cm-meta {
 name: TokyoNight
 id: TokyoNight
 settings:
-  - 
+  -
     id: heading-fonts
     title: Fonts
     type: heading
     level: 1
     collapsed: true
-  - 
+  -
     id: default-font
     title: Base Font
     type: variable-text
     default: '"JetBrains Mono", monospace, "Inter", sans-serif'
-  - 
+  -
     id: font-monospace
     title: Monospace Font
     description: Used for codeblocks, tables, etc.
     type: variable-text
     default: '"JetBrains Mono", monospace, "Source Code Pro", monospace'
-  - 
+  -
     id: heading-translucency
     title: Translucency
     type: heading
@@ -409,8 +422,8 @@ settings:
     min: 0
     max: 1
     step: 0.01
-  
-  - 
+
+  -
     id: heading-colors-background
     title: Background Colors
     type: heading
@@ -520,7 +533,7 @@ settings:
     format: rgba
     default-light: 'rgba(220, 222, 226, 1)'
     default-dark: 'rgba(41, 46, 66, 1)'
-  - 
+  -
     id: heading-colors-text
     title: Text Colors
     type: heading
@@ -598,29 +611,29 @@ settings:
     format: rgba
     default-light: 'rgba(39, 71, 125, 0.6)'
     default-dark: 'rgba(61, 89, 161, 0.6)'
-  - 
+  -
     id: bold-color
-    title: Bold Color 
-    type: variable-themed-color 
-    opacity: false 
-    format: rgb 
-    default-light: 'rgb(90, 74, 120)' 
+    title: Bold Color
+    type: variable-themed-color
+    opacity: false
+    format: rgb
+    default-light: 'rgb(90, 74, 120)'
     default-dark: 'rgb(187, 154, 247)'
-  - 
-    id: italic-color 
-    title: Italic Color 
-    type: variable-themed-color 
-    opacity: false 
-    format: rgb 
-    default-light: 'rgb(90, 74, 120)' 
+  -
+    id: italic-color
+    title: Italic Color
+    type: variable-themed-color
+    opacity: false
+    format: rgb
+    default-light: 'rgb(90, 74, 120)'
     default-dark: 'rgb(187, 154, 247)'
-  - 
+  -
     id: heading-colors
-    title: Header Colors 
+    title: Header Colors
     type: heading
     level: 1
     collapsed: true
-  - 
+  -
     id: h1-color
     title: 'H1 Color'
     type: variable-themed-color
@@ -628,15 +641,15 @@ settings:
     format: rgb
     default-light: 'rgb(140, 67, 8)'
     default-dark: 'rgb(255, 117, 127)'
-  - 
+  -
     id: h2-color
     title: 'H2 Color'
     type: variable-themed-color
     opacity: false
     format: rgb
     default-light: 'rgb(143, 94, 21)'
-    default-dark: 'rgb(224, 175, 104)' 
-  - 
+    default-dark: 'rgb(224, 175, 104)'
+  -
     id: h3-color
     title: 'H3 Color'
     type: variable-themed-color
@@ -644,7 +657,7 @@ settings:
     format: rgb
     default-light: 'rgb(51, 99, 92)'
     default-dark: 'rgb(158, 206, 106)'
-  - 
+  -
     id: h4-color
     title: 'H4 Color'
     type: variable-themed-color
@@ -652,7 +665,7 @@ settings:
     format: rgb
     default-light: 'rgb(15, 75, 110)'
     default-dark: 'rgb(125, 207, 255)'
-  - 
+  -
     id: h5-color
     title: 'H5 Color'
     type: variable-themed-color
@@ -660,7 +673,7 @@ settings:
     format: rgb
     default-light: 'rgb(52, 84, 138)'
     default-dark: 'rgb(122, 162, 247)'
-  - 
+  -
     id: h6-color
     title: 'H6 Color'
     type: variable-themed-color
@@ -669,7 +682,7 @@ settings:
     default-light: 'rgb(90, 74, 120)'
     default-dark: 'rgb(187, 154, 247)'
 
-  - 
+  -
     id: heading-colors-interactive
     title: Interactive Colors
     type: heading
@@ -716,146 +729,146 @@ settings:
     default-light: 'rgb(51, 99, 92)'
     default-dark: 'rgb(158, 206, 106)'
 
-  - 
-    id: heading-tag-color 
+  -
+    id: heading-tag-color
     title: 'Tag Color'
     type: heading
     level: 1
-    collapsed: true 
-  - 
-    id: tag-color 
+    collapsed: true
+  -
+    id: tag-color
     title: 'Tag Color'
     type: variable-themed-color
     opacity: true
     format: rgba
     default-light: 'rgba(90, 74, 120, 1)'
     default-dark: 'rgba(187, 154, 247, 1)'
-  - 
-    id: tag-background 
-    title: 'Tag Background' 
-    type: variable-themed-color 
-    opacity: true 
-    format: rgba 
-    default-light: 'rgba(90, 74, 120, 0.15)' 
-    default-dark: 'rgba(187, 154, 247, 0.15)' 
-  - 
-    id: tag-color-hover 
-    title: 'Tag Color (hover)' 
-    type: variable-themed-color 
-    opacity: true 
-    format: rgba 
-    default-light: 'rgba(15, 75, 110, 1)' 
-    default-dark: 'rgba(125, 207, 255, 1)' 
-  - 
-    id: tag-background-hover 
-    title: 'Tag Background (hover)' 
-    type: variable-themed-color 
-    opacity: true 
-    format: rgba 
-    default-light: 'rgba(15, 75, 110, 0.15)' 
+  -
+    id: tag-background
+    title: 'Tag Background'
+    type: variable-themed-color
+    opacity: true
+    format: rgba
+    default-light: 'rgba(90, 74, 120, 0.15)'
+    default-dark: 'rgba(187, 154, 247, 0.15)'
+  -
+    id: tag-color-hover
+    title: 'Tag Color (hover)'
+    type: variable-themed-color
+    opacity: true
+    format: rgba
+    default-light: 'rgba(15, 75, 110, 1)'
+    default-dark: 'rgba(125, 207, 255, 1)'
+  -
+    id: tag-background-hover
+    title: 'Tag Background (hover)'
+    type: variable-themed-color
+    opacity: true
+    format: rgba
+    default-light: 'rgba(15, 75, 110, 0.15)'
     default-dark: 'rgba(125, 207, 255, 0.15)'
-  - 
-    id: heading-link-color 
-    title: 'Link Color' 
-    type: heading 
-    level: 1 
-    collapsed: true 
-  - 
-    id: link-color 
-    title: 'Link Color' 
-    type: variable-themed-color 
-    opacity: true 
-    format: rgba 
-    default-light: 'rgba(90, 74, 120, 1)' 
-    default-dark: 'rgba(187, 154, 247, 1)' 
-  - 
-    id: link-color-hover 
-    title: 'Link Color (hover)' 
-    type: variable-themed-color 
-    opacity: true 
-    format: rgba 
-    default-light: 'rgba(15, 75, 110, 1)' 
-    default-dark: 'rgba(125, 207, 255, 1)' 
-  - 
-    id: link-external-color 
-    title: 'Link External Color' 
-    type: variable-themed-color 
-    opacity: true 
-    format: rgba 
-    default-light: 'rgba(90, 74, 120, 1)' 
+  -
+    id: heading-link-color
+    title: 'Link Color'
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: link-color
+    title: 'Link Color'
+    type: variable-themed-color
+    opacity: true
+    format: rgba
+    default-light: 'rgba(90, 74, 120, 1)'
     default-dark: 'rgba(187, 154, 247, 1)'
-  - 
-    id: link-external-color-hover 
-    title: 'Link External Color (hover)' 
-    type: variable-themed-color 
-    opacity: true 
-    format: rgba 
-    default-light: 'rgba(15, 75, 110, 1)' 
+  -
+    id: link-color-hover
+    title: 'Link Color (hover)'
+    type: variable-themed-color
+    opacity: true
+    format: rgba
+    default-light: 'rgba(15, 75, 110, 1)'
+    default-dark: 'rgba(125, 207, 255, 1)'
+  -
+    id: link-external-color
+    title: 'Link External Color'
+    type: variable-themed-color
+    opacity: true
+    format: rgba
+    default-light: 'rgba(90, 74, 120, 1)'
+    default-dark: 'rgba(187, 154, 247, 1)'
+  -
+    id: link-external-color-hover
+    title: 'Link External Color (hover)'
+    type: variable-themed-color
+    opacity: true
+    format: rgba
+    default-light: 'rgba(15, 75, 110, 1)'
     default-dark: 'rgba(125, 207, 255, 1)'
 
-  - 
+  -
     id: heading-checkbox-checklist
-    title: 'Checkbox and Checklist' 
-    type: heading 
-    level: 1 
-    collapsed: true 
-  - 
-    id: checkbox-radius 
-    title: 'Checkbox: Radius' 
-    type: variable-number-slider 
-    default: 4 
-    min: 0 
-    max: 20 
-    step: 1 
-  - 
-    id: checkbox-color 
-    title: 'Checkbox: Color' 
-    type: variable-themed-color 
-    opacity: false 
-    format: rgb 
-    default-light: 'rgb(150, 153, 163)' 
+    title: 'Checkbox and Checklist'
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: checkbox-radius
+    title: 'Checkbox: Radius'
+    type: variable-number-slider
+    default: 4
+    min: 0
+    max: 20
+    step: 1
+  -
+    id: checkbox-color
+    title: 'Checkbox: Color'
+    type: variable-themed-color
+    opacity: false
+    format: rgb
+    default-light: 'rgb(150, 153, 163)'
     default-dark: 'rgb(86, 95, 137)'
-  - 
-    id: checkbox-color-hover 
+  -
+    id: checkbox-color-hover
     title: 'Checkbox: Color (hover)'
     type: variable-themed-color
     opacity: false
-    format: rgb 
-    default-light: 'rgb(150, 153, 163)' 
-    default-dark: 'rgb(86, 95, 137)' 
-  - 
-    id: checkbox-marker-color 
-    title: 'Checkbox: Marker Color' 
-    type: variable-themed-color 
-    opacity: false 
-    format: rgb 
-    default-light: 'rgb(51, 99, 92)' 
-    default-dark: 'rgb(158, 206, 106)' 
-  - 
-    id: checkbox-border-color 
-    title: 'Checkbox: Border Color' 
-    type: variable-themed-color 
-    opacity: false 
-    format: rgb 
-    default-light: 'rgb(150, 153, 163)' 
-    default-dark: 'rgb(86, 95, 137)' 
-  - 
-    id: checkbox-border-color-hover 
-    title: 'Checkbox: Border Color (hover)' 
-    type: variable-themed-color 
-    opacity: false 
-    format: rgb 
-    default-light: 'rgb(150, 153, 163)' 
-    default-dark: 'rgb(86, 95, 137)' 
-  - 
-    id: checklist-done-color 
-    title: 'Checklist: Done Color' 
-    type: variable-themed-color 
-    opacity: true 
-    format: rgba 
-    default-light: 'rgba(51, 99, 92, 0.5)' 
+    format: rgb
+    default-light: 'rgb(150, 153, 163)'
+    default-dark: 'rgb(86, 95, 137)'
+  -
+    id: checkbox-marker-color
+    title: 'Checkbox: Marker Color'
+    type: variable-themed-color
+    opacity: false
+    format: rgb
+    default-light: 'rgb(51, 99, 92)'
+    default-dark: 'rgb(158, 206, 106)'
+  -
+    id: checkbox-border-color
+    title: 'Checkbox: Border Color'
+    type: variable-themed-color
+    opacity: false
+    format: rgb
+    default-light: 'rgb(150, 153, 163)'
+    default-dark: 'rgb(86, 95, 137)'
+  -
+    id: checkbox-border-color-hover
+    title: 'Checkbox: Border Color (hover)'
+    type: variable-themed-color
+    opacity: false
+    format: rgb
+    default-light: 'rgb(150, 153, 163)'
+    default-dark: 'rgb(86, 95, 137)'
+  -
+    id: checklist-done-color
+    title: 'Checklist: Done Color'
+    type: variable-themed-color
+    opacity: true
+    format: rgba
+    default-light: 'rgba(51, 99, 92, 0.5)'
     default-dark: 'rgba(158, 206, 106, 0.5)'
-  - 
+  -
     id: heading-scrollbar
     title: 'Scrollbar'
     type: heading
@@ -885,28 +898,28 @@ settings:
     format: rgba
     default-light: 'rgba(203, 204, 209, 1)'
     default-dark: 'rgba(22, 22, 30, 1)'
-  - 
-    id: scrollbar-width 
+  -
+    id: scrollbar-width
     title: 'Scrollbar: Width'
     type: variable-number-slider
-    default: 0 
-    min: 0 
-    max: 20 
-    step: 1 
-  - 
-    id: miscellaneous
-    title: Miscellaneous
-    type: heading 
-    level: 1 
-    collapsed: true 
-  - 
-    id: border-width 
+    default: 0
+    min: 0
+    max: 20
+    step: 1
+  -
+    id: miscillaneous
+    title: Miscillaneous
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: border-width
     title: 'Border Width'
-    type: variable-number-slider 
-    default: 2 
-    min: 0 
-    max: 20 
-    step: 1 
-  
+    type: variable-number-slider
+    default: 2
+    min: 0
+    max: 20
+    step: 1
+
 
 */
