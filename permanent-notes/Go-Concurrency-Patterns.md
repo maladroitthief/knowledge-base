@@ -1,11 +1,14 @@
-type: #idea
-subject: [Go-Programming-Language](Go-Programming-Language.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Go-Concurrency-Patterns
 
 ## Pipeline
 
-A series of stages connected by channels. 
+A series of stages connected by channels.
 
 ```go
 func gen(nums ...int) <-chan int{
@@ -92,7 +95,7 @@ func merge (done <-chan struct{}, cs ...<-chan int) <-chan int{
 	// Close out when all other goroutines have finished
 	go func() {
 		wg.Wait()
-		close(out)	
+		close(out)
 	}
 	return out
 }
@@ -102,7 +105,7 @@ func main(){
 	// close it when the pipeline exits
 	done := make(chan struct{})
 	defer close(done)
-	
+
 	in := gen(done, 2, 4)
 	// distribute work between two goroutines
 	c1 := square(done, in)
@@ -113,3 +116,6 @@ func main(){
 }
 ```
 
+## References
+
+- [Go-Programming-Language](Go-Programming-Language.md)

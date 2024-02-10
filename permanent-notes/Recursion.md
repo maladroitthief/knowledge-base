@@ -1,6 +1,9 @@
-type: #idea
-subject: [Computational-technique](Computational-technique.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Recursion
 
 Recursion is a problem solving strategy that involves breaking a problem down into smaller and smaller pieces and using those solutions collectively to find the original solution. All recursive functions have at least these two parts:
@@ -29,6 +32,7 @@ func fibonacci(n int) int {
 }
 ```
 
----
-# References
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+
+- [Computational-technique](Computational-technique.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

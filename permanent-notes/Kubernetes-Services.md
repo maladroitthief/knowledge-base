@@ -1,5 +1,8 @@
-type: #idea
-subject: [Kubernetes](Kubernetes.md)
+---
+tags:
+  - idea
+aliases:
+---
 
 # Services
 
@@ -7,6 +10,7 @@ A Service is a Kubernetes API resource that is used for handling the internal in
 
 Services target Pods using a label selector and exist independent of both [Pods](Kubernetes-Pods.md) and [Deployments](Kubernetes-Deployments.md)
 
----
-# References
-[Kubernetes-documentation](Kubernetes-documentation.md)
+## References
+
+- [Kubernetes](Kubernetes.md)
+- [Kubernetes-documentation](Kubernetes-documentation.md)

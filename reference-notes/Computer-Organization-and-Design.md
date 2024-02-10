@@ -1,6 +1,9 @@
-type: #reference
-subject: [Software-Engineering](Software-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - reference
+aliases:
+---
+
 # Computer-Organization-and-Design
 
 Author: David Patterson & John Hennessy

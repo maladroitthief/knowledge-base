@@ -1,6 +1,9 @@
-type: #idea
-subject: [[]]
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # {{title}}
 
 <!--
@@ -10,6 +13,6 @@ subject: [[]]
 	Link to other ideas
 -->
 
----
-# References
-<!-- What references back up this idea -->
+## References
+
+- [[]]

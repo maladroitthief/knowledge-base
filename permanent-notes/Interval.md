@@ -1,6 +1,9 @@
-type: #idea
-subject: [Array](Array.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Interval
 
 An interval is a subset of an array where the array consists of two element arrays. The two elements represent a start and end value.
@@ -43,7 +46,7 @@ func mergeOverlappingIntervals(a, b [2]float64) [2]float64 {
 }
 ```
 
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+
+- [Array](Array.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

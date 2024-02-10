@@ -1,6 +1,9 @@
-type: #idea
-subject: [Linux](Linux.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Command-substitution
 
 Command substitution replaces itself with the internal command.
@@ -15,7 +18,7 @@ Alternatively, process substitution can be used to instead create a temporary fi
 python script.py --file <(python generate_key.py)
 ```
 
----
-# References
-<!-- What references back up this idea -->
-[Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)
+## References
+
+- [Linux](Linux.md)
+- [Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)

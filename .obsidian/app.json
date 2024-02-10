@@ -9,5 +9,8 @@
   "livePreview": false,
   "showLineNumber": true,
   "defaultViewMode": "preview",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "readableLineLength": false,
+  "newLinkFormat": "relative",
+  "showUnsupportedFiles": true
 }

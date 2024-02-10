@@ -1,6 +1,9 @@
-type: #idea
-subject: [Site-Reliability-Engineering](Site-Reliability-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Service Level Objects
 
 A service level object (SLO) specifies a target level of reliability for a service. The following must be true for an SLO:
@@ -10,8 +13,8 @@ A service level object (SLO) specifies a target level of reliability for a servi
 - The organization has agreed to use error budgeting for decision making and prioritization
 - There is a process in place for refining the SLO
 
-It is important to realize that 100% reliability is a bad target. Instead the reliability target should be comprised of [[Service-Level-Indicators]]
+It is important to realize that 100% reliability is a bad target. Instead the reliability target should be comprised of [[unfinished-notes/Service-Level-Indicators]]
 
----
-# References
-<!-- What references back up this idea -->
+## References
+
+- [Site-Reliability-Engineering](Site-Reliability-Engineering.md)

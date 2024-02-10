@@ -1,5 +1,8 @@
-type: #reference
-subject: [Digital-Organization](Digital-Organization.md)
+---
+tags:
+  - reference
+aliases:
+---
 
 # The PARA Method
 

@@ -1,6 +1,9 @@
-type: #idea
-subject: [Linux](Linux.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # history
 
 History views the history of previously executed commands. Commands are kept in the $HISTFILE and are not updated until the user logs out. Updating the $HISTFILE can be forced using the command `history -w`.
@@ -28,7 +31,7 @@ Adding a space to the front of any command will prevent it from being written to
  docker-compose down
 ```
 
----
-# References
-<!-- What references back up this idea -->
-[Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)
+## References
+
+- [Linux](Linux.md)
+- [Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)

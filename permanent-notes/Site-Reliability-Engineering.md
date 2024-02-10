@@ -1,11 +1,15 @@
-type: #hub
-subject: [Software-Engineering](Software-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - hub
+  - todo
+aliases:
+---
+
 # Site Reliability Engineering
 
 > Hope is not a strategy
 
-A site reliability engineer (SRE) is a software engineer that focuses on solving operational issues with software, creating [Service-Level-Objects](Service-Level-Objects.md), minimizing toil of manual tasks, reduce the cost of failure, and share ownership with developers.
+A site reliability engineer (SRE) is a software engineer that focuses on solving operational issues with software, creating [Service-Level-Objects](../unfinished-notes/Service-Level-Objects.md), minimizing toil of manual tasks, reduce the cost of failure, and share ownership with developers.
 
 ## Tenants
 
@@ -21,14 +25,14 @@ A site reliability engineer (SRE) is a software engineer that focuses on solving
 ## Principles
 
 - [[Embracing-risk]]
-- [Service-Level-Objects](Service-Level-Objects.md)
+- [Service-Level-Objects](../unfinished-notes/Service-Level-Objects.md)
 - [[Eliminating-toil]]
 - [[Monitoring-distributed-systems]]
 - [[Automation]]
 - [[Release-engineering]]
 - [[Simplicity]]
 
----
-# References
-<!-- What references back up this idea -->
-[SRE-Book](SRE-Book.md)
+## References
+
+- [Software-Engineering](Software-Engineering.md)
+- [SRE-Book](SRE-Book.md)

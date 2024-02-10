@@ -1,6 +1,9 @@
-type: #reference
-subject: [Software-Engineering](Software-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - reference
+aliases:
+---
+
 # The Rust Programming Language
 
 Author: Steve Klabnik & Carol Nichols

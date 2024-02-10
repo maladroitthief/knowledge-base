@@ -1,10 +1,13 @@
-type: #idea
-subject: [Computational-technique](Computational-technique.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Traverse-from-right
 
 Occasionally it can be effect to traverse an array from right to left instead of left to right.
 
----
-# References
-<!-- What references back up this idea -->
+## References
+
+- [Computational-technique](Computational-technique.md)

@@ -1,5 +1,8 @@
-type: #reference
-subject: [Algorithms](Algorithms.md)
+---
+tags:
+  - reference
+aliases:
+---
 
 # The Algorithm Design Manual
 

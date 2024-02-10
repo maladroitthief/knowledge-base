@@ -1,6 +1,9 @@
-type: #idea
-subject: [Algorithms](Algorithms.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Depth-first-search
 
 Depth first search is a graph traversal algorithm that travels as far as possible along edges before it backtracks. This is typically accomplished using a [Stack](Stack.md) to keep track of the nodes on the current path. This could be an implicit stack through using recursion or a literal stack data structure.
@@ -62,8 +65,8 @@ func (g *graph) dfsTraverse(i, j int, visited [][]bool) {
 }
 ```
 
----
-# References
-<!-- What references back up this idea -->
-[The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+
+- [Algorithms](Algorithms.md)
+- [The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

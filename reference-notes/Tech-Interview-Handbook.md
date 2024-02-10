@@ -1,6 +1,9 @@
-type: #reference
-subject: [Software Engineering](Software-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - reference
+aliases:
+---
+
 # Tech Interview Handbook
 
 Author: [Yangshun Tay](https://www.linkedin.com/in/yangshun/)

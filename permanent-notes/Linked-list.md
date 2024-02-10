@@ -1,18 +1,21 @@
-type: #idea
-subject: [Data-Structures](Data-Structures.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Linked list
 
-Similar to an [Array](Array.md), the linked list is a  sequential data structure that stores elements linearly. Unlike arrays, the order is not determined by it's position in memory, but instead it keeps an address of the next element.
+Similar to an [Array](Array.md), the linked list is a sequential data structure that stores elements linearly. Unlike arrays, the order is not determined by it's position in memory, but instead it keeps an address of the next element.
 
 This has the advantage of it being an O(1) operation to insert and delete elements in the linked list. The draw back, however, is that accessing is an O(n) operation as the linked list needs to be traveled to find the element.
 
 | Operation | Big-O |
-|-----------|-------|
-| Access | O(n) |
-| Search | O(n) |
-| Insert | O(1) |
-| Remove | O(1) |
+| --------- | ----- |
+| Access    | O(n)  |
+| Search    | O(n)  |
+| Insert    | O(1)  |
+| Remove    | O(1)  |
 
 ## Types
 
@@ -60,7 +63,7 @@ The [Two-pointers](Two-pointers.md) technique is very common with linked lists. 
 
 Avoid creating an auxiliary linked list to modify an already existing one. Instead, do in-place operations to avoid wasting memory.
 
----
-# References
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
-<!-- What references back up this idea -->
+## References
+
+- [Data-Structures](Data-Structures.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

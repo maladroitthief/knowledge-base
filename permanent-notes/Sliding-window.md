@@ -1,6 +1,9 @@
-type: #idea
-subject: [Computational technique](Computational-technique.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Sliding window
 
 Sliding window is a technique that accomplishes what would normally taking multiple iterations in a single iteration. The technique can be applied when given a window of a known size, finding the result for the first window, and then shifting the window to the next position in the array or string.
@@ -41,3 +44,7 @@ func slidingWindow(arr []int, windowSize int) int {
 	return result
 }
 ```
+
+## References
+
+- [Computational technique](Computational-technique.md)

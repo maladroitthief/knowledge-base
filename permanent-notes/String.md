@@ -1,7 +1,8 @@
-type: #idea
-subject: [Data-Structures](Data-Structures.md)
-
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
 
 # String
 
@@ -55,3 +56,6 @@ To determine if two strings are anagrams of one another, sort them and compare t
 
 To determine if a string is a palindrome, reverse it and compare the two strings. It is also possible to use two pointers at either end of the string and move them inward, comparing character by character until they meet.
 
+## References
+
+- [Data-Structures](Data-Structures.md)

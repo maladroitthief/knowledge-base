@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unfinished-notes/Big-Oh-Notation.md",
+                "file": "Shell-script.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -49,21 +49,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
-                "matchingCase": false,
+                "query": "type idea",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "5a622b64d17e1395",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           },
           {
@@ -78,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 412.5
   },
   "right": {
     "id": "473d8e5f79eb7c16",
@@ -94,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "unfinished-notes/Big-Oh-Notation.md",
+                "file": "Shell-script.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -105,8 +97,51 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#todo",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14724968
+                      }
+                    },
+                    {
+                      "query": "tag:#hub",
+                      "color": {
+                        "a": 1,
+                        "rgb": 8037111
+                      }
+                    },
+                    {
+                      "query": "tag:#reference",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16217742
+                      }
+                    },
+                    {
+                      "query": "path:assets",
+                      "color": {
+                        "a": 1,
+                        "rgb": 7592650
+                      }
+                    },
+                    {
+                      "query": "tag:#idea",
+                      "color": {
+                        "a": 1,
+                        "rgb": 12634869
+                      }
+                    },
+                    {
+                      "query": "path:unfinished-notes  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 12294903
+                      }
+                    }
+                  ],
                   "collapse-display": true,
                   "showArrow": false,
                   "textFadeMultiplier": 0,
@@ -129,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unfinished-notes/Big-Oh-Notation.md",
+                "file": "Shell-script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unfinished-notes/Big-Oh-Notation.md",
+                "file": "Shell-script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unfinished-notes/Big-Oh-Notation.md"
+                "file": "Shell-script.md"
               }
             }
           },
@@ -179,7 +214,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -198,34 +235,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4081df31b073ba1",
+  "active": "b0107b3ed3d883f1",
   "lastOpenFiles": [
-    "permanent-notes/Anonymous-Functions.md",
-    "unfinished-notes/Big-Oh-Notation.md",
-    "permanent-notes/alias.md",
-    "permanent-notes/Algorithms.md",
-    "permanent-notes/Command-substitution.md",
+    "permanent-notes/Shell.md",
+    "Shell-script.md",
     "permanent-notes/Logical-operators.md",
-    "README.md",
-    "Service-Level-Indicators.md",
-    "Service-Level-Objects.md",
-    "permanent-notes/Standard-streams.md",
-    "permanent-notes/xargs.md",
-    "permanent-notes/tee.md",
-    "permanent-notes/history.md",
+    "permanent-notes/Go-Programming-Language.md",
     "unfinished-notes/Kubernetes-Pods.md",
     "unfinished-notes/Kubernetes-Deployments.md",
-    "permanent-notes/Go-Concurrency-Patterns.md",
-    "permanent-notes/Go-Programming-Language.md",
-    "unfinished-notes/Offer-negotiation.md",
-    "permanent-notes/Shell-expansion.md",
-    "unfinished-notes/Union-find.md",
-    "unfinished-notes/Strategy-Pattern.md",
-    "unfinished-notes/System-design-preparation.md",
-    "permanent-notes/Site-Reliability-Engineering.md",
-    "Efficiency.md",
-    "permanent-notes/Emergency-response.md",
-    "permanent-notes/Change-management.md",
+    "unfinished-notes/Big-Oh-Notation.md",
+    "permanent-notes/xargs.md",
+    "permanent-notes/Two-pointers.md",
+    "permanent-notes/Tree.md",
+    "permanent-notes/Trie.md",
+    "permanent-notes/Traverse-from-right.md",
+    "permanent-notes/Topological-sorting.md",
+    "permanent-notes/Terminal.md",
+    "permanent-notes/tee.md",
+    "permanent-notes/Technical-interview-preparation.md",
+    "permanent-notes/Systems-software.md",
+    "permanent-notes/Super-linear-functions.md",
+    "permanent-notes/Suffix-tree.md",
+    "permanent-notes/String.md",
+    "permanent-notes/Standard-streams.md",
+    "permanent-notes/Stack.md",
+    "permanent-notes/Sorting-and-searching.md",
+    "permanent-notes/SOLID-principles.md",
+    "permanent-notes/Software-Engineering.md",
+    "permanent-notes/Sliding-window.md",
+    "assets",
     "unfinished-notes",
     "daily-notes",
     "Untitled.canvas",

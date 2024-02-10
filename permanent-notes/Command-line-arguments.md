@@ -1,6 +1,9 @@
-type: #idea
-subject: [Linux](Linux.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Command line arguments
 
 Command line arguments are passed to command line applications and come in two varieties.
@@ -41,10 +44,10 @@ Longer strings of command line arguments can be split into multiple lines
 ```bash
 ls \
 -a \
--l 
+-l
 ```
 
----
-# References
-<!-- What references back up this idea -->
-[Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)
+## References
+
+- [Linux](Linux.md)
+- [Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)

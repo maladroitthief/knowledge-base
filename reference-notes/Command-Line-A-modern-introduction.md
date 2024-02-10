@@ -1,6 +1,9 @@
-type: #reference
-subject: [Linux](Linux.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - reference
+aliases:
+---
+
 # Command Line: A modern introduction
 
 Author: Petr Stribny

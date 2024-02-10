@@ -1,6 +1,9 @@
-type: #idea
-subject: [Software-Engineering](Software-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Problem solving techniques
 
 When solving unfamiliar problems in software engineering, it is best to take a structured approach when breaking the problem down. In addition, make sure the problem is fully understood by gathering more information and discussing the problem with colleagues.
@@ -58,7 +61,7 @@ Often times, existing data structures or algorithms can make solving a problem t
 1. Re-use existing variables rather than create new ones when allowed.
 2. Consider alternative data structures. Don't use a structure that adds a lot of overhead when there is a simpler option.
 
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+## References
+
+- [Software-Engineering](Software-Engineering.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

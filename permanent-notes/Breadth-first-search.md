@@ -1,6 +1,9 @@
-type: #idea
-subject: [Algorithms](Algorithms.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Breadth first search
 
 Breadth-first search is a graph traversal algorithm that starts at a node and travels to all other nodes at the current depth before moving further into the graph. [Queues](Queue.md) are a good data structure for tracking of the nodes that have been encountered, but not traversed.
@@ -75,8 +78,8 @@ func (g *graph) bfsTraverse(
 }
 ```
 
----
-# References
-<!-- What references back up this idea -->
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
-[The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)
+## References
+
+- [Algorithms](Algorithms.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+- [The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)

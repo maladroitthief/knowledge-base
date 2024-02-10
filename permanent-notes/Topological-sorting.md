@@ -1,6 +1,9 @@
-type: #idea
-subject: [Algorithms](Algorithms.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Topological sorting
 
 A topological sort is a linear ordering of a directed graph. The ordering works similarly to [Depth-first-search](Depth-first-search.md), but the nodes are considered "visited" when all of it's dependencies are visited. This is an algorithm that is commonly used for discovering dependencies or prerequisites between nodes.
@@ -66,10 +69,8 @@ func (g *graph) tsTraverse(
 }
 ```
 
+## References
 
-
----
-# References
-<!-- What references back up this idea -->
-[The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)
-[Tech-Interview-Handbook](Tech-Interview-Handbook.md)
+- [Algorithms](Algorithms.md)
+- [The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)
+- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)

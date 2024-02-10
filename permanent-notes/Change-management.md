@@ -1,6 +1,9 @@
-type: #idea
-subject: [Site-Reliability-Engineering](Site-Reliability-Engineering.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Change-management
 
 > ~70% of outages are due to changes on live systems
@@ -11,7 +14,7 @@ Automate the following:
 - Quickly & accurately detect problems
 - Rolling back safely when problems occur
 
----
-# References
-<!-- What references back up this idea -->
-[SRE-Book](SRE-Book.md)
+## References
+
+- [Site-Reliability-Engineering](Site-Reliability-Engineering.md)
+- [SRE-Book](SRE-Book.md)

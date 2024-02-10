@@ -1,9 +1,12 @@
-type: #idea
-subject: [Shell](Shell.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Shell-variables
 
-Shell variables are variables that are only applied to the current shell instance. 
+Shell variables are variables that are only applied to the current shell instance.
 
 ```bash
 var=TestVar
@@ -21,7 +24,7 @@ export var=TestVar
 
 All current environment variables can be viewed using `export`
 
----
-# References
-<!-- What references back up this idea -->
-[Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)
+## References
+
+- [Shell](Shell.md)
+- [Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)

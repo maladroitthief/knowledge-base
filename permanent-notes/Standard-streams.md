@@ -1,7 +1,8 @@
-type: #idea
-subject: [Linux](Linux.md)
-
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
 
 # Standard-streams
 
@@ -42,10 +43,7 @@ line two
 END
 ```
 
----
+## References
 
-# References
-
-<!-- What references back up this idea -->
-
-[Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)
+- [Linux](Linux.md)
+- [Command-Line-A-modern-introduction](Command-Line-A-modern-introduction.md)

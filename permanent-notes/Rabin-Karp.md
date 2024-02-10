@@ -1,6 +1,9 @@
-type: #idea
-subject: [Algorithms](Algorithms.md)
-<!-- Subject should be a hub note -->
+---
+tags:
+  - idea
+aliases:
+---
+
 # Rabin-Karp Algorithm
 
 The Rabin-Karp algorithm is a method of finding all occurrences of a sub-string in a given string. The naive approach to this solution would be to use the [Sliding-window](Sliding-window.md) technique. Rabin-Karp has a similar approach, but instead of comparing the window to the sub-string, it instead compares hash values using a [rolling hash function](Rolling-Hash-Function).
@@ -118,3 +121,7 @@ func search(pattern, text string) []int {
 	return results
 }
 ```
+
+## References
+
+- [Algorithms](Algorithms.md)
