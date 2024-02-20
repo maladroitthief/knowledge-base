@@ -6,12 +6,9 @@ aliases:
 
 # Digital Organization
 
-<!--
-	This can be empty
-	This can be an index
-	This can be it's own note
--->
+- [[qec-method-of-note-taking]]
+- [[para-method]]
 
 ## References
 
-- [README](/README.md)
+- [[knowledge-base]]

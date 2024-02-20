@@ -13,26 +13,26 @@ A site reliability engineer (SRE) is a software engineer that focuses on solving
 
 ## Tenants
 
-- [[Availability]]
-- [[Latency]]
-- [[Performance]]
-- [[Efficiency]]
-- [Change-management](Change-management.md)
-- [Monitoring](Monitoring.md)
-- [Emergency-response](Emergency-response.md)
-- [Capacity-planning](Capacity-planning.md)
+- Availability
+- Latency
+- Performance
+- Efficiency
+- [[change-management]]
+- [[monitoring]]
+- [[emergency-response]]
+- [[capacity-planning]]
 
 ## Principles
 
-- [[Embracing-risk]]
-- [Service-Level-Objects](../unfinished-notes/Service-Level-Objects.md)
-- [[Eliminating-toil]]
-- [[Monitoring-distributed-systems]]
-- [[Automation]]
-- [[Release-engineering]]
-- [[Simplicity]]
+- Embracing-risk
+- [[service-level-objects]]
+- Eliminating-toil
+- Monitoring-distributed-systems
+- Automation
+- Release-engineering
+- Simplicity
 
 ## References
 
-- [Software-Engineering](Software-Engineering.md)
-- [SRE-Book](SRE-Book.md)
+- [[software-engineering]]
+- [[SRE-Book]]

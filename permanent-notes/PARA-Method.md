@@ -6,7 +6,8 @@ aliases:
 
 # PARA Method
 
-PARA method is a organizing technique for digital files that claims to be easy to maintain, simple, and flexible.
+PARA method is a organizing technique for digital files that claims to be easy
+to maintain, simple, and flexible.
 
 PARA has four categories at the top level to encompass all subjects or ideas.
 
@@ -18,9 +19,11 @@ PARA has four categories at the top level to encompass all subjects or ideas.
 
 **Archive:** Anything that is no longer relevant from the other three categories
 
-The order of these folders is intentional depending on how actionable the ideas should be. In theory you are mean to spend more time in Projects and Areas than you would Resources and Archives.
+The order of these folders is intentional depending on how actionable the ideas
+should be. In theory you are mean to spend more time in Projects and Areas than
+you would Resources and Archives.
 
 ## References
 
-- [Digital-Organization](Digital-Organization.md)
-- [The-PARA-Method](The-PARA-Method.md)
+- [[digital-organization]]
+- [[the-para-method]]

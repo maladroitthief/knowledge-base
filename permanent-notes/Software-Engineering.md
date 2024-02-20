@@ -6,9 +6,9 @@ aliases:
 
 # Software Engineering
 
-- [Algorithms](Algorithms.md)
-- [Data-Structures](Data-Structures.md)
+- [[algorithms]]
+- [[data-structures]]
 
 ## References
 
-- [README](/README.md)
+- [[knowledge-base]]
