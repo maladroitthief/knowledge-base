@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unfinished-notes/Big-Oh-Notation.md",
-                "mode": "source",
+                "file": "permanent-notes/Breadth-first-search.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "unfinished-notes/Big-Oh-Notation.md",
+                "file": "permanent-notes/Breadth-first-search.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unfinished-notes/Big-Oh-Notation.md",
+                "file": "permanent-notes/Breadth-first-search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unfinished-notes/Big-Oh-Notation.md",
+                "file": "permanent-notes/Breadth-first-search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unfinished-notes/Big-Oh-Notation.md"
+                "file": "permanent-notes/Breadth-first-search.md"
               }
             }
           },
@@ -200,10 +200,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4081df31b073ba1",
+  "active": "9831b97c8510726e",
   "lastOpenFiles": [
-    "permanent-notes/Anonymous-Functions.md",
     "unfinished-notes/Big-Oh-Notation.md",
+    "permanent-notes/Anonymous-Functions.md",
     "permanent-notes/alias.md",
     "permanent-notes/Algorithms.md",
     "permanent-notes/Command-substitution.md",

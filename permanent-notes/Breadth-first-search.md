@@ -2,15 +2,22 @@
 tags:
   - idea
 aliases:
+  - BFS
 ---
 
 # Breadth first search
 
-Breadth-first search is a graph traversal algorithm that starts at a node and travels to all other nodes at the current depth before moving further into the graph. [Queues](Queue.md) are a good data structure for tracking of the nodes that have been encountered, but not traversed.
+Breadth-first search is a graph traversal algorithm that starts at a node and
+travels to all other nodes at the current depth before moving further into the
+graph. [[queue]] are a good data structure for tracking of the nodes
+that have been encountered, but not traversed.
 
-It is important to use a double-ended queue and not an array due to the time complexity of dequeuing.
+> **ℹ️ Note**
+>
+> It is important to use a double-ended queue (not an array) due to the time
+> complexity of dequeuing.
 
-## Example
+## Implementations
 
 ### go
 
@@ -80,6 +87,6 @@ func (g *graph) bfsTraverse(
 
 ## References
 
-- [Algorithms](Algorithms.md)
-- [Tech-Interview-Handbook](Tech-Interview-Handbook.md)
-- [The-Algorithm-Design-Manual](The-Algorithm-Design-Manual.md)
+- [[algorithms]]
+- [[tech-interview-handbook]]
+- [[the-algorithm-design-manual]]
