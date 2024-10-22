@@ -29,14 +29,10 @@ that adding or removing objects to the middle of an array can be a slow process.
 
 ## Techniques
 
-- [Sliding window](Sliding-window.md)
-- [Two pointers](Two-pointers.md)
-- [Traverse from right](Traverse-from-right.md)
-- [Sorting-and-searching](Sorting-and-searching.md)
-- [Pre-computation](Pre-computation.md)
-- [Index as hash key](Index-as-hash-key.md)
-- [Traversing multiple times](Traversing-multiple-times)
-
-## References
-
-- [Data Structures](/data-structures)
+- [Sliding window](/computer-engineering/Sliding-window)
+- [Two pointers](/computer-engineering/Two-pointers)
+- [Traverse from right](/computer-engineering/Traverse-from-right)
+- [Sorting-and-searching](/computer-engineering/Sorting-and-searching)
+- [Pre-computation](/computer-engineering/Pre-computation)
+- [Index as hash key](/computer-engineering/Index-as-hash-key)
+- [Traversing multiple times](/computer-engineering/Traverse-from-right)

@@ -7,8 +7,8 @@ tags:
 
 # {{title}}
 
-|           |   |
-| --------- | - |
-| Author    |   |
-| Source    |   |
-| Published |   |
+|               |   |
+| ------------- | - |
+| **Author**    |   |
+| **Source**    |   |
+| **Published** |   |

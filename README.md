@@ -24,9 +24,5 @@ time.
 - [Computer Engineering](/computer-engineering)
 - [Data Structures](/data-structures)
 - [Algorithms](/algorithms)
-
-
-- [Computational-technique](permanent-notes/Computational-technique.md)
-- [Design-principles](permanent-notes/Design-principles.md)
-- [Digital-Organization](permanent-notes/Digital-Organization.md)
-- [Linux](permanent-notes/Linux.md)
+- [Computational-technique](/computer-engineering/Computational-technique)
+- [Linux](/computer-engineering/Linux)

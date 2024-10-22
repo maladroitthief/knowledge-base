@@ -2,7 +2,7 @@
 title: Assembler
 layout: idea
 tags:
-  - computer-engineering
+  - computer-architecture
 ---
 
 # Assembler
