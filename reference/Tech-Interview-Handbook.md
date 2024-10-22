@@ -1,7 +1,8 @@
 ---
+title: Tech Interview Handbook
+layout: reference
 tags:
   - reference
-aliases:
 ---
 
 # Tech Interview Handbook

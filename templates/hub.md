@@ -3,7 +3,7 @@ title:
 layout: hub
 permalink:
 tags:
- -
+  -
 ---
 
 # {{title}}
@@ -13,7 +13,3 @@ tags:
 	This can be an index
 	This can be it's own note
 -->
-
-## References
-
-- [[]]

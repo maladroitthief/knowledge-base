@@ -2,7 +2,7 @@
 title: Assembler
 layout: idea
 tags:
-  -
+  - computer-engineering
 ---
 
 # Assembler
@@ -12,5 +12,4 @@ is an example of a symbolic language and machine language is a binary language.
 
 ## References
 
-- [Software-Engineering](Software-Engineering.md)
-- [Computer-Organization-and-Design](Computer-Organization-and-Design.md)
+- [Computer Organization and Design](/reference/Computer-Organization-and-Design)
