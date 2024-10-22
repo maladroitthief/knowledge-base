@@ -6,7 +6,10 @@ aliases:
 
 # Depth-first-search
 
-Depth first search is a graph traversal algorithm that travels as far as possible along edges before it backtracks. This is typically accomplished using a [Stack](Stack.md) to keep track of the nodes on the current path. This could be an implicit stack through using recursion or a literal stack data structure.
+Depth first search is a graph traversal algorithm that travels as far as
+possible along edges before it backtracks. This is typically accomplished using
+a [Stack](Stack.md) to keep track of the nodes on the current path. This could
+be an implicit stack through using recursion or a literal stack data structure.
 
 ## Example
 
@@ -14,7 +17,9 @@ Depth first search is a graph traversal algorithm that travels as far as possibl
 
 ```go
 var (
-	directions = [][]int{{0, 1}, {0, -1}, {1, 0}, {-1, 0}}
+	directions = [][]int{
+  {0, 1}, {0, -1}, {1, 0}, {-1, 0}
+  }
 )
 
 type graph struct {

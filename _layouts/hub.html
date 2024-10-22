@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h2>Related</h2>
+
+<ul>
+  {% assign page_tag = page.tags | first %}
+  {% for p in site.pages %}
+  {% if p.tags contains page_tag and p.url != page.url %}
+  <li><a href="{{ p.url }}">{{p.title | default: "blank" }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>

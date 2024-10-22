@@ -1,7 +1,9 @@
 ---
+title:
+layout: hub
+permalink:
 tags:
-  - hub
-aliases:
+ -
 ---
 
 # {{title}}

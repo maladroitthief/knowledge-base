@@ -1,7 +1,8 @@
 ---
+title:
+layout: reference
 tags:
-  - reference
-aliases:
+ -
 ---
 
 # {{title}}

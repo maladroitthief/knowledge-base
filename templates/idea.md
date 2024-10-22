@@ -1,7 +1,8 @@
 ---
+title:
+layout: idea
 tags:
-  - idea
-aliases:
+  -
 ---
 
 # {{title}}

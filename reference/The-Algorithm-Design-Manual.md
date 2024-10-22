@@ -1,7 +1,9 @@
 ---
+title: The Algorithm Design Manual
+layout: reference
 tags:
   - reference
-aliases:
+  - algorithms
 ---
 
 # The Algorithm Design Manual

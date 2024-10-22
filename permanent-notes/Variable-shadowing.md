@@ -6,13 +6,15 @@ aliases:
 
 # Variable-shadowing
 
-Variable shadowing is re-declaring a variable in an inner block and can result in unexpected outcomes.
+Variable shadowing is re-declaring a variable in an inner block and can result
+in unexpected outcomes.
 
 ## Examples
 
 ### Problem
 
-In this case, the client looks as if it is being assigned, but it is just the shadow variable that is being set.
+In this case, the client looks as if it is being assigned, but it is just the
+shadow variable that is being set.
 
 ```go
 var client *http.Client
@@ -34,7 +36,8 @@ if tracing {
 
 ### Solutions
 
-In this case, a temporary variable is being declared and then is assigned to the client
+In this case, a temporary variable is being declared and then is assigned to the
+client
 
 ```go
 var client *http.Client

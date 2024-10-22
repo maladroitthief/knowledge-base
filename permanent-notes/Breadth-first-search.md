@@ -9,8 +9,8 @@ aliases:
 
 Breadth-first search is a graph traversal algorithm that starts at a node and
 travels to all other nodes at the current depth before moving further into the
-graph. [[queue]] are a good data structure for tracking of the nodes
-that have been encountered, but not traversed.
+graph. [[queue]] are a good data structure for tracking of the nodes that have
+been encountered, but not traversed.
 
 > **ℹ️ Note**
 >
@@ -23,7 +23,9 @@ that have been encountered, but not traversed.
 
 ```go
 var (
-	directions = [][]int{{0, 1}, {0, -1}, {1, 0}, {-1, 0}}
+	directions = [][]int{
+  {0, 1}, {0, -1}, {1, 0}, {-1, 0}
+  }
 )
 
 type graph struct {

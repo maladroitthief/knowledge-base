@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "permanent-notes/Breadth-first-search.md",
+                "file": "permanent-notes/Floating-points.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 393.5
   },
   "right": {
     "id": "473d8e5f79eb7c16",
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "permanent-notes/Breadth-first-search.md",
+                "file": "permanent-notes/Floating-points.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent-notes/Breadth-first-search.md",
+                "file": "permanent-notes/Floating-points.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent-notes/Breadth-first-search.md",
+                "file": "permanent-notes/Floating-points.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "permanent-notes/Breadth-first-search.md"
+                "file": "permanent-notes/Floating-points.md"
               }
             }
           },
@@ -189,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 770.5
+    "width": 584.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,6 +202,13 @@
   },
   "active": "9831b97c8510726e",
   "lastOpenFiles": [
+    "permanent-notes/High-level-language.md",
+    "permanent-notes/Datapath.md",
+    "permanent-notes/Change-management.md",
+    "permanent-notes/Directory.md",
+    "permanent-notes/Cubic-functions.md",
+    "permanent-notes/Floating-points.md",
+    "permanent-notes/Breadth-first-search.md",
     "unfinished-notes/Big-Oh-Notation.md",
     "permanent-notes/Anonymous-Functions.md",
     "permanent-notes/alias.md",
@@ -221,13 +228,6 @@
     "permanent-notes/Go-Programming-Language.md",
     "unfinished-notes/Offer-negotiation.md",
     "permanent-notes/Shell-expansion.md",
-    "unfinished-notes/Union-find.md",
-    "unfinished-notes/Strategy-Pattern.md",
-    "unfinished-notes/System-design-preparation.md",
-    "permanent-notes/Site-Reliability-Engineering.md",
-    "Efficiency.md",
-    "permanent-notes/Emergency-response.md",
-    "permanent-notes/Change-management.md",
     "unfinished-notes",
     "daily-notes",
     "Untitled.canvas",

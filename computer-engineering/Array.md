@@ -1,12 +1,16 @@
 ---
+title: Array
+layout: idea
 tags:
-  - idea
-aliases:
+  - data-structures
 ---
 
 # Array
 
-An array is a collection of items that are held in order at a specific index. They are useful for storing objects of the same type in a single variable and it is very quick to access elements if you have the index. It should also be said that adding or removing objects to the middle of an array can be a slow process.
+An array is a collection of items that are held in order at a specific index.
+They are useful for storing objects of the same type in a single variable and it
+is very quick to access elements if you have the index. It should also be said
+that adding or removing objects to the middle of an array can be a slow process.
 
 | Operation              | Big-O     | Note                                       |
 | ---------------------- | --------- | ------------------------------------------ |
@@ -35,4 +39,4 @@ An array is a collection of items that are held in order at a specific index. Th
 
 ## References
 
-- [Data Structures](Data-Structures.md)
+- [Data Structures](/data-structures)
