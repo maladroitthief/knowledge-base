@@ -1,7 +1,8 @@
 ---
+title: Depth first search
+layout: idea
 tags:
-  - idea
-aliases:
+  - algorithms
 ---
 
 # Depth-first-search

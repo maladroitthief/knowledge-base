@@ -4,7 +4,6 @@ layout: idea
 tags:
   - computer-engineering
   - computer-architecture
-aliases:
 ---
 
 # CPU

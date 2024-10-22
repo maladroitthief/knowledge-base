@@ -3,7 +3,6 @@ permalink: /
 layout: idea
 tags:
   - hub
-aliases:
 ---
 
 # knowledge-base

@@ -3,7 +3,6 @@ title: QEC Method
 layout: idea
 tags:
   - idea
-aliases:
 ---
 
 # QEC Method of Note Taking
