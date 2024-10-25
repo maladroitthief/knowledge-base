@@ -7,14 +7,13 @@ tags:
 
 # knowledge-base
 
-A ever expanding collection of notes, random facts, and strategies that I have
-learned over time. Notes are organized roughly following the
+A ever expanding collection of notes, random facts, and strategies that I have learned over time. Notes are organized roughly following the
 [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) system.
 
 ## How I take notes
 
 Almost all my notes start by being written down in a notebook using the
-[QEC Method](/permanent-notes/QEC-Method-of-Note-Taking). They are then
+[QEC Method](/organization/QEC-Method-of-Note-Taking). They are then
 transcribed to this knowledge-base, linked to other notes, and improved over
 time.
 

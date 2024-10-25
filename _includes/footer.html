@@ -1,23 +1,23 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ " /" | relative_url }}"></data>
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        {%- include social.html -%}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
+    <data class="u-url" href="{{ " /" | relative_url }}"></data>
+    <div class="wrapper">
+        <div class="footer-col-wrapper">
+            <div class="footer-col">
+                {%- include social.html -%}
+            </div>
+            <div class="footer-col">
+                <p>{{ site.description | escape }}</p>
+            </div>
+        </div>
     </div>
-  </div>
 
-  {% if page.mermaid %}
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@11.3.0/dist/mermaid.min.js"></script>
-  <script type=module>
+    {% if page.mermaid %}
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@11.3.0/dist/mermaid.min.js"></script>
+    <script type=module>
     mermaid.initialize({startOnLoad: false});
     await mermaid.run({
       querySelector: '.language-mermaid',
     });
   </script>
-  {% endif %}
+    {% endif %}
 </footer>

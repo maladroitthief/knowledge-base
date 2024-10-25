@@ -1,0 +1,20 @@
+<style>
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+</style>
+
+<header class="site-header">
+    <div class="wrapper header-container">
+        <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+        <div class="header-search">
+            <form class="header-search-form" action="/search/" method="get">
+                <input type="text" id="search-box" name="query">
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </div>
+</header>
