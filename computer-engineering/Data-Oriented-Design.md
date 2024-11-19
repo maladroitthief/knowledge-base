@@ -80,3 +80,7 @@ than objects can be mutated. By keeping data and operations separate,
 refactoring large changes is often a trivial or non-existent task, but it is
 important to remember that the trade off is keeping track of what data is
 necessary for each transformation.
+
+## References
+
+- [Data-Oriented Design](/reference/Data-Oriented-Design)
