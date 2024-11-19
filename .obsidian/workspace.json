@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bbe332ab98df67d7",
+        "id": "834bc0f56dd112e7",
         "type": "tabs",
         "children": [
           {
-            "id": "9831b97c8510726e",
+            "id": "01a6e8d59c344971",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "permanent-notes/Floating-points.md",
+                "file": "templates/hub.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "hub"
             }
           }
         ]
@@ -40,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -55,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -63,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -71,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -94,7 +104,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "permanent-notes/Floating-points.md",
+                "file": "templates/hub.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -120,7 +130,9 @@
                   "scale": 1.0534979423868303,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of hub"
             }
           },
           {
@@ -129,7 +141,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "permanent-notes/Floating-points.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +148,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -146,10 +159,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "permanent-notes/Floating-points.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -160,7 +174,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -168,9 +184,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "permanent-notes/Floating-points.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
@@ -182,7 +198,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -200,7 +218,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9831b97c8510726e",
+  "active": "01a6e8d59c344971",
   "lastOpenFiles": [
     "permanent-notes/High-level-language.md",
     "permanent-notes/Datapath.md",
