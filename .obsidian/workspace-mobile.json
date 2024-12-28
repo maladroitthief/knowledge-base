@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-engineering/alias.md",
+                "file": "computer-engineering/Algorithms.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "alias"
+              "title": "Algorithms"
             }
           }
         ]
@@ -147,6 +147,7 @@
   },
   "active": "76bfa1929f68de33",
   "lastOpenFiles": [
+    "computer-engineering/alias.md",
     "computer-engineering/Algorithms.md",
     "Excalidraw/Drawing 2024-12-28 10.01.29.excalidraw.md",
     "Excalidraw"
