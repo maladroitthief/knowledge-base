@@ -7,9 +7,9 @@ tags:
 
 # Exponential time functions
 
-$$f(n)=c^n$$
+> f(n)=c^n
 
-Exponential functions describe algorithms when iterating over all subsets of $n$ items
+Exponential functions describe algorithms when iterating over all subsets of `n` items
 
 ## References
 

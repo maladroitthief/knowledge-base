@@ -7,7 +7,7 @@ tags:
 
 # Cubic time functions
 
-$$f(n)=n^3$$
+> f(n)=n^3
 
 Cubic functions describe algorithms that examine all triples
 

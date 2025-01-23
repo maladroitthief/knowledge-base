@@ -7,7 +7,7 @@ tags:
 
 # Super-linear time functions
 
-$$f(n)=n*log(n)$$
+> f(n)=n*log(n)
 
 Functions that are super-linear grow slightly faster than linear, but not by much.
 

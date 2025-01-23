@@ -18,7 +18,7 @@ the value in an array.
 | Insert    | O(1)  |
 | Remove    | O(1)  |
 
-To be clear, the $O(1)$ is average case as it depends on the underlying hash
+To be clear, the `O(1)` is average case as it depends on the underlying hash
 function, but in most instances it is safe to assume average case.
 
 ## References

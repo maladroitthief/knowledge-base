@@ -214,7 +214,7 @@ but this is to be avoided if possible.
 On the topic of treating a row in a database as a key, think of the table as a
 set and an insert is checking if a combination exists. This can be useful if the
 number of possible values is small enough to be represented with a bit set. Bit
-sets take up significantly less memory and can be accessing in $O(1)$ time.
+sets take up significantly less memory and can be accessing in `O(1)` time.
 
 To normalize to first normal form, we need to first remove null values and treat
 them as new tables.

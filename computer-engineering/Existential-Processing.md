@@ -18,7 +18,7 @@ in a valid state before being processed.
 Cyclomatic complexity is a numeric representation of the complexity of programs,
 specifically concerning flow control. In short, it is:
 
-$$1 + number of conditionals$$
+> 1 + number of conditionals
 
 This number is very difficult to reason with when dealing with virtual function
 calls because you need to know the number of possible methods that can fulfill

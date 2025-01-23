@@ -20,8 +20,8 @@ pattern matching without the need to back track in the text string.
 
 ## Complexity
 
-KMP has a time complexity of $O(n + m)$ where $n$ is the text length and $m$ is
-the pattern length. It has an auxiliary space of $O(m)$.
+KMP has a time complexity of `O(n + m)` where `n` is the text length and `m` is
+the pattern length. It has an auxiliary space of `O(m)`.
 
 ## Examples
 

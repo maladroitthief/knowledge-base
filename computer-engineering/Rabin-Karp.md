@@ -15,10 +15,10 @@ compares hash values using a rolling hash function.
 
 ## Complexity
 
-It has an average/best case time complexity of $O(n+m)$ and a worse case time
-complexity of $O(n * m)$. The worst case would occur if all the calculated hash
+It has an average/best case time complexity of `O(n+m)` and a worse case time
+complexity of `O(n * m)`. The worst case would occur if all the calculated hash
 values of the text were the same as the calculated hash of the pattern. It has
-auxiliary complexity of $O(1)$.
+auxiliary complexity of `O(1)`.
 
 ## Hashing function
 
@@ -31,7 +31,7 @@ of the currently observed sub-string, but when compared they do not match one
 another.
 
 The hashing function suggested by Rabin-Karp is
-$$p[0]*10^{m-1} + p[1]*10^{m-2} + ... p[m-1]*10^0$$
+> p[0]*10^{m-1} + p[1]*10^{m-2} + ... p[m-1]*10^0
 
 It should be acknowledged that for larger character sets and larger patterns,
 this hashing function is vulnerable to integer overflows. To account for this,

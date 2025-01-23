@@ -7,9 +7,9 @@ tags:
 
 # Factorial time functions
 
-$$f(n)=n!$$
+> f(n)=n!
 
-Factorial functions exist when generating all permutations or orderings of $n$ items
+Factorial functions exist when generating all permutations or orderings of `n` items
 
 ## References
 

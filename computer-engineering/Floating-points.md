@@ -23,7 +23,7 @@ In single-precision floating point (32 bits), 8 bits represent the exponent and
 bits represent the exponent and 52 bits represent the mantissa. The remaining
 bit is for the sign.
 
-$$ sign*2^{exponent}*mantissa $$
+> sign*2^{exponent}*mantissa
 
 ### Special numbers
 

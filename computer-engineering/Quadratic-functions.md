@@ -7,7 +7,7 @@ tags:
 
 # Quadratic time functions
 
-$$f(n)=n^2$$
+> f(n)=n^2
 
 Quadratic functions describe algorithms that require examining all pairs of elements.
 
