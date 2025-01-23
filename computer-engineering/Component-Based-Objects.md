@@ -13,3 +13,52 @@ processed by component type, rather than object instance, making it easier to
 profile. Using components typically can make extending functionality easier
 since they often don't need to modify existing components, they either extend it
 or provide alternatives.
+
+## Compound Objects
+
+A compound object is base entity instance that has a list of components. The
+core object merely holds the components and they communicate to each other
+through it. The entity usually will update by iterating over root instances
+rather than systems. This is a great start, but is not a fully component based
+approach. The entity is more readable, reusable, and robust allowing it to
+support a larger system and be reusable between projects.
+
+## Component oriented design
+
+A truly component based object is nothing more than the sum of it's parts. The
+object is not rigidly defined, but instead have it's characteristics described
+through components. Classes become containers of smaller objects. Instead of the
+"is-a" relationship of Object Oriented Design, Component Oriented Design is a
+"has-a" approach.
+
+When deciding on how to draw the boundaries of components, consider the needs of
+each piece as well as their requirements. This is not always easy and will take
+some consideration.
+
+To allow for a clean separation, have components be managed by managers rather
+than the entity. This promotes cache locality when we iterate over multiple
+entities/components that are doing similar tasks.
+
+Systems have specific needs in order to function properly. In some cases the
+needs of these systems will overlap, but they will not share all data between
+them. Using an object oriented approach, a lot of irrelevant data ends up being
+shared between systems. This noise is also taking up precious space in the CPU
+cache and is making an impact on performance.
+
+Class functionality is the interpretation of internal state over time.
+Interpreting the relationship of state or data is part of the problem, but in
+the end it's just data. We aim to separate data from meaning which is difficult
+if not impossible when all the data is in one place. By isolating data we remove
+the need to have classes that inscribe permanent meaning at the cost of having
+to query the data in indirect ways.
+
+Instead of classes accessing data in their components, transforms on the class
+should be how we access variables. Rather than a single `update()` call on the
+entity, we have an `update()` for every component that the entity is comprised
+of. These component transformations being handled by managers is beginning to
+open us up to parallel processing techniques and allows us to optimize how
+frequently these transforms need to be run.
+
+The final stage of component oriented programming is removing the entity
+all-together. Removing compile time classes and instead having entities implied
+by their component definitions increases the power of composition tremendously.
