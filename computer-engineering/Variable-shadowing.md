@@ -2,7 +2,7 @@
 title: Variable shadowing
 layout: idea
 tags:
-  - go
+  - 100-go-mistakes
 ---
 
 # Variable-shadowing
@@ -10,9 +10,7 @@ tags:
 Variable shadowing is re-declaring a variable in an inner block and can result
 in unexpected outcomes.
 
-## Examples
-
-### Problem
+## Mistake
 
 In this case, the client looks as if it is being assigned, but it is just the
 shadow variable that is being set.
@@ -35,7 +33,7 @@ if tracing {
 // Client is still nil at this point
 ```
 
-### Solutions
+## Fix
 
 In this case, a temporary variable is being declared and then is assigned to the
 client
