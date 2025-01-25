@@ -2,8 +2,8 @@
 title: 100 Go Mistakes
 layout: hub
 tags:
-  - computer-engineering
   - 100-go-mistakes
+  - computer-engineering
 ---
 
 # 100 Go Mistakes

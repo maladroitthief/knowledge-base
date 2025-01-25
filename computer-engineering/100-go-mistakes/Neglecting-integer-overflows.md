@@ -1,10 +1,29 @@
-package main
+---
+title: Neglecting integer overflows
+layout: idea
+tags:
+  - 100-go-mistakes
+---
 
-import "math"
+# Neglecting integer overflows
 
-func Inc32(counter int32) int32 {
-	if counter == math.MaxInt32 {
-		panic("int32 overflow")
+An integer overflow occurs when an arithmetic operation creates a value outside
+the range that can be represented in bytes. In Go an integer overflow or
+underflow is silent at run-time.
+
+## Mistake
+
+```go
+var counter int32 = math.MaxInt32
+counter++ // results in -2_147_483_648
+```
+
+## Fix
+
+```go
+func IncInt(counter int) int {
+	if counter == math.MaxInt {
+		panic("int overflow")
 	}
 	return counter + 1
 }
@@ -42,3 +61,10 @@ func MultiplyInt(a, b int) int {
 
 	return result
 }
+```
+
+
+
+## References
+
+- [100 Go Mistakes](/reference/100-Go-Mistakes-and-How-to-Avoid-Them)

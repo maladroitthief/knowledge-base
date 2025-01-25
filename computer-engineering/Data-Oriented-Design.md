@@ -20,6 +20,72 @@ a technique to be learned. While data can be generic in type it is rarely
 generic in how it is used. Transformations can be generic, but the ordering and
 selection of those transformations is literally the solution to the problem.
 
+## Principles
+
+- The purpose of all programs, and all parts of those programs, is to transform
+  data from one form to another.
+- If you don't understand the data you do not understand the problem.
+- Conversely, understand the problem by understanding the data.
+- Different problems require different solutions.
+- If you don't understand the cost of solving the problem, you don't understand
+  the problem.
+- If you don't understand the hardware, you cannot reason about the cost of
+  solving the problem.
+- Everything is a data problem. Usability, maintenance, debug-ability, etc.
+  Everything.
+- Solving problems you probably don't have creates more problems you definitely
+  do.
+- Latency and throughput are only the same in sequential systems.
+- Where there is one, there are many. Manage the most common issue first.
+- The more context you have, the better you can make the solution. Don't throw
+  away data you need.
+- Software does not run in a magic fairy aether powered by the fevered dreams of
+  Computer Science PhDs.
+- Reason must prevail.
+
+## Three big lies
+
+The following lies in Computer Engineer will result in the following problems:
+
+- Poor performance
+- Poor concurrency
+- Poor optimize-ability
+- Poor stability
+- Poor test-ability
+
+### Software is a platform
+
+Hardware is the platform. Different hardware requires different solutions.
+Target a finite set of hardware platforms.
+
+### Code should be designed around the model of the world
+
+Confuses two problems, the maintenance and understanding the properties of data.
+We want to allow changes to our access to the data, but this should not be
+confused with understanding data properties necessary for solving problems. At
+the cost of slightly better maintenance, we make problems very difficult to
+solve. World modeling implies a relationship between real data and transforms.
+In real life a chair is a chair, but in terms of data transforms these models
+are only superficially similar. A physicsChair, staticChair, and a
+breakableChair share almost nothing in common with one another. World modeling
+leads to monolithic, unrelated data structures and transforms.
+
+We should not be engineering by analogy or story-telling. We should be
+engineering by engineering.
+
+### Code is more important than data
+
+The only purpose of any code is to transform data. The programmer is
+fundamentally responsible for the data, not the code. The programmers job is not
+to write code, it is to solve data transform problems.
+
+Only write code that has direct, provable value that transforms data in
+a meaningful way. Understand the data to understand the problem. There is no
+ideal abstract solution to the problem.
+
+You cannot future proof. Code does not last forever. The problem will
+fundamentally change over time.
+
 ## Data is not the problem domain
 
 The interpretation and context of the data should not be part of the data. The
