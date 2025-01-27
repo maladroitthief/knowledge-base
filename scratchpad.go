@@ -17,5 +17,6 @@ func concat(values []string) string {
 	for _, value := range values {
 		_, _ = sb.WriteString(value)
 	}
+
 	return sb.String()
 }
