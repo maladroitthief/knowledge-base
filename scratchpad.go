@@ -1,21 +1,21 @@
 package main
 
-import "os"
+import "strings"
 
 func main() {
 }
 
-func readFiles(ch <-chan string) error {
-	for path := range ch {
-		file, err := os.Open(path)
-
-		if err != nil {
-			return err
-		}
-
-		// This is deferred when readFiles exits, not the current iteration
-		defer file.Close()
+func concat(values []string) string {
+	total := 0
+	// Get total number of bytes
+	for i := 0; i < len(values); i++ {
+		total += len(values[i])
 	}
 
-	return nil
+	sb := strings.Builder{}
+	sb.Grow(total)
+	for _, value := range values {
+		_, _ = sb.WriteString(value)
+	}
+	return sb.String()
 }
