@@ -1,44 +1,21 @@
 package main
 
-import "math"
+import "os"
 
-func Inc32(counter int32) int32 {
-	if counter == math.MaxInt32 {
-		panic("int32 overflow")
-	}
-	return counter + 1
+func main() {
 }
 
-func AddInt(a, b int) int {
-	if a > math.MaxInt-b {
-		panic("int overflow")
-	}
-	return a + b
-}
+func readFiles(ch <-chan string) error {
+	for path := range ch {
+		file, err := os.Open(path)
 
-func MultiplyInt(a, b int) int {
-	// If one of the operands is equal to 0, it directly returns 0.
-	if a == 0 || b == 0 {
-		return 0
-	}
+		if err != nil {
+			return err
+		}
 
-	result := a * b
-
-	if a == 1 || b == 1 {
-		// Checks if one of the return result operands is equal to 1
-		return result
+		// This is deferred when readFiles exits, not the current iteration
+		defer file.Close()
 	}
 
-	if a == math.MinInt || b == math.MinInt {
-		// Checks if one of the operands is equal to math.MinInt
-		panic("integer overflow")
-	}
-
-	if result/b != a {
-		// Checks if the multiplication
-		panic("integer overflow")
-		// leads to an integer overflow
-	}
-
-	return result
+	return nil
 }
