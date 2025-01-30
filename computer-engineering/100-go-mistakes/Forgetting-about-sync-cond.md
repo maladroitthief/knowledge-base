@@ -59,7 +59,7 @@ f := func(goal int){
   donation.cond.L.Lock()
   for donation.balance < goal {
     // blocks until condition is met/broadcast
-    // cont.Wait() does the following:
+    // cond.Wait() does the following:
     //  - Unlock the mutex
     //  - Suspend the goroutine until a notification is received
     //  - Lock the mutex
