@@ -79,13 +79,17 @@ func sumBar(bar Bar) int64 {
 
 The memory layout for array of structs looks like the following:
 
-|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b| | cache line |
-cache line | cache line | cache line |
+```
+|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|a|b|
+|  cache line   |  cache line   |  cache line   |  cache line   |
+```
 
 Where as the memory layout of the struct of array looks like this:
 
-|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|b|b|b|b|b|b|b|b|b|b|b|b|b|b|b|b| | cache line |
-cache line | cache line | cache line |
+```
+|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|b|b|b|b|b|b|b|b|b|b|b|b|b|b|b|b|
+|  cache line   |  cache line   |  cache line   |  cache line   |
+```
 
 Both examples have the same amount of data, but with the struct of arrays the
 elements are all continuous in memory. If our goal is only to read the elements
@@ -126,8 +130,8 @@ broken down into:
   with 512 lines, we have 512 / 2 = 256 sets (2^**8**), the next 8 bits
   represent the set index (si).
 - **tag bits**: A unique identifier for the block. Based on main memory size.
-  For 524,288 bytes in main memory, we have log2(524,288) - **bo** - **si**
-  (19 - 9 - 8), the next 2 bits represent the tag bits (tb).
+  For 524,288 bytes in main memory, we have `log2(524,288) - **bo** - **si**`
+  tag bits (19 - 9 - 8), the next 2 bits represent the tag bits (tb).
 
 Consider the following memory accesses. Each row will indicate a memory read and
 the corresponding CPU operation given a two-way set associative cache:
@@ -145,7 +149,7 @@ where all the accessed variables end up with the same set index, we end up using
 just one cache set instead of having a distribution across the whole cache. This
 is called **critical stride**. For example, if we have a 32 KB, eight-way
 set-associative L1D cache (64 sets) and a cache line is 64 bytes, any continuous
-structure that has 64 x 64 = 4KB of memory will have **critical stride**. This
+structure that has `64 x 64 = 4KB` of memory will have **critical stride**. This
 would be a `[512]int64` or a `[1024]int32` resulting in poor caching
 distribution.
 
