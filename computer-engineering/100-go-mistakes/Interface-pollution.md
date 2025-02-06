@@ -11,19 +11,13 @@ Interfaces are one of the most valuable tools for structuring Go code and as a
 result they are often abused creating unnecessary abstractions and difficult to
 follow code.
 
-## Mistake
-
 Creating interfaces and abstractions early. We should not be creating an
 interface before their is code to implement it. Abstractions should be
 discovered, not created.
 
-## Fix
+## Common behavior
 
-Interfaces can be appropriate for the following categories:
-
-### Common behavior
-
-Consider the `sort` interface
+Consider the `sort` interface which is incredibly common
 
 ```go
 type Interface interface {
@@ -33,9 +27,9 @@ type Interface interface {
 }
 ```
 
-### Decoupling
+## Decoupling
 
-Coupled
+### Coupled
 
 ```go
 type CustomerService struct {
@@ -48,7 +42,7 @@ func (cs CustomerService) CreateNewCustomer(id string) error {
 }
 ```
 
-Decoupled
+### Decoupled using an interface
 
 ```go
 type customerStorer interface {
@@ -65,9 +59,9 @@ func (cs CustomerService) CreateNewCustomer(id string) error {
 }
 ```
 
-### Restricting Behavior
+## Restricting Behavior
 
-Concrete implementation
+### Concrete implementation
 
 ```go
 type IntConfig struct {
@@ -83,7 +77,7 @@ func (c *IntConfig) Set(value int) {
 }
 ```
 
-Restricted implementation
+### Restricted implementation using an interface
 
 ```go
 type intConfigGetter interface {

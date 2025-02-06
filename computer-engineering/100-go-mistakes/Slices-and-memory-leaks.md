@@ -9,9 +9,9 @@ tags:
 
 Slicing an existing slice can lead to memory leaks under certain conditions.
 
-## Mistake
+## Leaking capacity
 
-### Leaking capacity
+### Mistake
 
 ```go
 func getMessageType(msg []byte) []byte {
@@ -19,14 +19,7 @@ func getMessageType(msg []byte) []byte {
 }
 ```
 
-### Slices and pointers
-
-When working with slices, if the element is a pointer or a struct with pointer
-fields, it will not be collected by the garbage collector.
-
-## Fix
-
-### Leaking capacity
+### Fix
 
 ```go
 func getMessageType(msg []byte) []byte {
@@ -36,7 +29,10 @@ func getMessageType(msg []byte) []byte {
 }
 ```
 
-### Slices and pointers
+## Slices and pointers
+
+When working with slices, if the element is a pointer or a struct with pointer
+fields, it will not be collected by the garbage collector.
 
 Either make a copy of the slice to remove unwanted elements or set the remaining
 slices to nil.

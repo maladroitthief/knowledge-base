@@ -7,9 +7,9 @@ tags:
 
 # Common JSON handling mistakes
 
-## Mistake
+## Type embedding
 
-### Type embedding
+### Mistake
 
 This does not work because time.Time implements the `json.Marshaler` interface
 and will clobber any sort of JSON marshaling we are trying to accomplish.
@@ -31,12 +31,40 @@ if err != nil {
 }
 ```
 
-### The monotonic clock
+### Fix
+
+```go
+type Event struct {
+  ID: int
+  Time: time.Time
+}
+```
+
+Alternatively we could chose to implement the `json.Marshaler` interface
+
+```go
+func (e *Event) MarshalJSON() ([]byte, error){
+  return json.Marshal(
+    // leveraging an anonymous struct
+    struct {
+      ID int
+      Time time.Time
+    }{
+      ID: e.ID,
+      Time: e.Time,
+    },
+  )
+}
+```
+
+## The monotonic clock
 
 An OS handles two types of clocks:
 
 - Wall: measuring the time of day
 - Monotonic: measuring duration
+
+### Mistake
 
 ```go
 type Event struct {
@@ -71,50 +99,7 @@ wall clocks.
 >
 > Wall time Monotonic time
 
-### Map of any
-
-This code works, however it should be made clear that any numeric field will be
-assigned to a `float64` regardless whether it contains a decimal point or not.
-
-```go
-b := getMessage()
-var m map[string]any
-
-err := json.Unmarshal(b, &m)
-if err != nil {
-  return err
-}
-```
-
-## Fix
-
-### Type embedding
-
-```go
-type Event struct {
-  ID: int
-  Time: time.Time
-}
-```
-
-Alternatively we could chose to implement the `json.Marshaler` interface
-
-```go
-func (e *Event) MarshalJSON() ([]byte, error){
-  return json.Marshal(
-    // leveraging an anonymous struct
-    struct {
-      ID int
-      Time time.Time
-    }{
-      ID: e.ID,
-      Time: e.Time,
-    },
-  )
-}
-```
-
-### The monotonic clock
+### Fix
 
 ```go
 event1.Time.Equal(event2.Time)
@@ -126,6 +111,21 @@ Alternatively we can strip away the monotonic time.
 t := time.Now()
 event := Event{
   Time: t.Truncate(0),
+}
+```
+
+## Map of any
+
+This code works, however it should be made clear that any numeric field will be
+assigned to a `float64` regardless whether it contains a decimal point or not.
+
+```go
+b := getMessage()
+var m map[string]any
+
+err := json.Unmarshal(b, &m)
+if err != nil {
+  return err
 }
 ```
 

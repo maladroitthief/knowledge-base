@@ -7,9 +7,9 @@ tags:
 
 # Not closing transient resources
 
-## Mistake
+## HTTP body
 
-### HTTP body
+### Mistake
 
 ```go
 type handler struct {
@@ -33,42 +33,7 @@ func (h handler) getBody() (string, error) {
 }
 ```
 
-### sql.Rows
-
-```go
-// rows leaks here keeping an open connection
-rows, err := db.Query("SELECT * FROM customers")
-if err != nil {
-  return err
-}
-
-// ...
-
-return nil
-```
-
-### os.File
-
-This is fine for reading from a file, but for writing we want to capture any
-errors that may occur on the file close.
-
-```go
-f, err := os.OpenFile(filename, os.O_APPEND|os.O_WRONLY, os.ModeAppend)
-if err != nil {
-  return err
-}
-
-defer func(){
-  err := f.Close()
-  if err != nil {
-    // log
-  }
-}()
-```
-
-## Fix
-
-### HTTP body
+### Fix
 
 ```go
 type handler struct {
@@ -98,7 +63,23 @@ func (h handler) getBody() (string, error) {
 }
 ```
 
-### sql.Rows
+## sql.Rows
+
+### Mistake
+
+```go
+// rows leaks here keeping an open connection
+rows, err := db.Query("SELECT * FROM customers")
+if err != nil {
+  return err
+}
+
+// ...
+
+return nil
+```
+
+### Fix
 
 ```go
 rows, err := db.Query("SELECT * FROM customers")
@@ -117,7 +98,28 @@ defer func(){
 return nil
 ```
 
-### os.File
+## os.File
+
+### Mistake
+
+This is fine for reading from a file, but for writing we want to capture any
+errors that may occur on the file close.
+
+```go
+f, err := os.OpenFile(filename, os.O_APPEND|os.O_WRONLY, os.ModeAppend)
+if err != nil {
+  return err
+}
+
+defer func(){
+  err := f.Close()
+  if err != nil {
+    // log
+  }
+}()
+```
+
+### Fix
 
 ```go
 func writeToFile(filename string, content []byte) (err error) {

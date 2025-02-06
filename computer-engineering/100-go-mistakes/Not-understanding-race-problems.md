@@ -9,9 +9,9 @@ tags:
 
 Race problems can be among the hardest and most insidious bugs to fix.
 
-## Mistake
+## Multiple goroutines data races
 
-### Multiple goroutines data races
+### Mistake
 
 ```go
 i := 0
@@ -25,37 +25,7 @@ go func() {
 }()
 ```
 
-### Channel data races
-
-#### Synchronizing
-
-```go
-i := 0
-go func() {
-  i++ // Racer
-}()
-
-fmt.Println(i) // Racer
-```
-
-#### Buffered channels
-
-```go
-i := 0
-ch := make(chan struct{}, 1) // buffered
-
-go func() {
-  i = 1
-  <-ch // A buffered receive happens before a send
-}()
-
-ch <- struct{}{}
-fmt.Println(i)
-```
-
-## Fix
-
-### Multiple goroutine data races
+### Fix
 
 #### Using atomic operations
 
@@ -108,7 +78,37 @@ i += <-ch
 i += <-ch
 ```
 
-### Multiple channel data races
+## Channel data races
+
+### Mistake
+
+#### Synchronizing
+
+```go
+i := 0
+go func() {
+  i++ // Racer
+}()
+
+fmt.Println(i) // Racer
+```
+
+#### Buffered channels
+
+```go
+i := 0
+ch := make(chan struct{}, 1) // buffered
+
+go func() {
+  i = 1
+  <-ch // A buffered receive happens before a send
+}()
+
+ch <- struct{}{}
+fmt.Println(i)
+```
+
+### Fix
 
 #### Synchronizing
 

@@ -7,10 +7,9 @@ tags:
 
 # Using the default HTTP client and server
 
+## Client
 
-## Mistake
-
-### Client
+### Mistake
 
 This does not specify any timeouts
 
@@ -18,16 +17,7 @@ This does not specify any timeouts
 client := &http.Client{}
 ```
 
-### Server
-
-```go
-server := &http.Server{}
-server.Serve(listener)
-```
-
-## Fix
-
-### Client
+### Fix
 
 ```go
 client := &http.Client{
@@ -50,7 +40,16 @@ variables is critical for production facing systems.
 - http.Transport.MaxIdleConns (default 100): the max idle connections
 - http.Transport.MaxIdleConnsPerHost (default 2): max idle connections per host
 
-### Server
+## Server
+
+### Mistake
+
+```go
+server := &http.Server{}
+server.Serve(listener)
+```
+
+### Fix
 
 ```go
 server := &http.Server{

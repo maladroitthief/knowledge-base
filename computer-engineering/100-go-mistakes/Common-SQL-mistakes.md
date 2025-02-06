@@ -7,9 +7,9 @@ tags:
 
 # Common SQL mistakes
 
-## Mistake
+## sql.Open
 
-### sql.Open
+### Mistake
 
 This does not always open the connection, it merely prepares it for later use.
 
@@ -20,7 +20,48 @@ if err != nil {
 }
 ```
 
-### Mishandling null values
+### Fix
+
+```go
+db, err := sql.Open("mysql", dsn)
+if err != nil {
+  return err
+}
+
+err = db.Ping()
+if err != nil {
+  return err
+}
+```
+
+## Connection pooling
+
+`sql.Open` doesn't return a single connection, but a pool of connections. We can
+modify how this pool behaves with the following methods:
+
+- SetMaxOpenConns()
+- SetMaxIdleConns()
+- SetConnMaxIdleTime()
+- SetConnMaxLifetime()
+
+## Not using prepared statements
+
+A prepared statement is a feature most SQL databases implement to execute a
+repeated SQL statement. This is in the interest of efficiency as well as it
+reduces the risk of SQL injections.
+
+```go
+statement, err := db.Prepare("SELECT * FROM order WHERE ID = ?")
+if err != nil {
+  return err
+}
+
+rows, err := statement.Query(id)
+```
+
+## Mishandling null values
+
+### Mistake
 
 ```go
 rows, err := db.Query("SELECT dept, age FROM emp WHERE id = ?", id)
@@ -42,7 +83,30 @@ for rows.Next() {
 }
 ```
 
-### Not handling row iteration errors
+### Fix
+
+```go
+rows, err := db.Query("SELECT dept, age FROM emp WHERE id = ?", id)
+if err != nil {
+  return err
+}
+
+var (
+  department *string
+  age int
+)
+
+for rows.Next() {
+  err := rows.Scan(&department, &age)
+  if err != nil {
+    return err
+  }
+}
+```
+
+## Not handling row iteration errors
+
+### Mistake
 
 ```go
 func get(ctx context.Context, db *sql.DB, id string) (string, int, error) {
@@ -79,69 +143,7 @@ func get(ctx context.Context, db *sql.DB, id string) (string, int, error) {
 }
 ```
 
-## Fix
-
-### sql.Open
-
-```go
-db, err := sql.Open("mysql", dsn)
-if err != nil {
-  return err
-}
-
-err = db.Ping()
-if err != nil {
-  return err
-}
-```
-
-### Connection pooling
-
-`sql.Open` doesn't return a single connection, but a pool of connections. We can
-modify how this pool behaves with the following methods:
-
-- SetMaxOpenConns()
-- SetMaxIdleConns()
-- SetConnMaxIdleTime()
-- SetConnMaxLifetime()
-
-### Not using prepared statements
-
-A prepared statement is a feature most SQL databases implement to execute
-a repeated SQL statement. This is in the interest of efficiency as well as it
-reduces the risk of SQL injections.
-
-```go
-statement, err := db.Prepare("SELECT * FROM order WHERE ID = ?")
-if err != nil {
-  return err
-}
-
-rows, err := statement.Query(id)
-```
-
-### Mishandling null values
-
-```go
-rows, err := db.Query("SELECT dept, age FROM emp WHERE id = ?", id)
-if err != nil {
-  return err
-}
-
-var (
-  department *string
-  age int
-)
-
-for rows.Next() {
-  err := rows.Scan(&department, &age)
-  if err != nil {
-    return err
-  }
-}
-```
-
-### Not handling row iteration errors
+### Fix
 
 ```go
 func get(ctx context.Context, db *sql.DB, id string) (string, int, error) {
@@ -180,7 +182,6 @@ func get(ctx context.Context, db *sql.DB, id string) (string, int, error) {
   return department, age, nil
 }
 ```
-
 
 ## References
 
