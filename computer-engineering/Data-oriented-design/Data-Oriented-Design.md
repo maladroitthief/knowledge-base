@@ -40,7 +40,7 @@ selection of those transformations is literally the solution to the problem.
 - The more context you have, the better you can make the solution. Don't throw
   away data you need.
 - Software does not run in a magic fairy aether powered by the fevered dreams of
-  Computer Science PhDs.
+  Computer Science PhDs, it runs on hardware.
 - Reason must prevail.
 
 ## Three big lies
