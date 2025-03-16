@@ -8,20 +8,20 @@ tags:
 # Component Based Objects
 
 Thinking using components instead of inheritance can prevent needlessly linking
-ideas that are unrelated to one another. Objects built this was can be then
-processed by component type, rather than object instance, making it easier to
-profile. Using components typically can make extending functionality easier
-since they often don't need to modify existing components, they either extend it
-or provide alternatives.
+ideas that are unrelated to one another. Objects built this way can be processed
+by component type, rather than object instance making it easier to profile the
+application. Using components typically can make extending functionality easier
+too since they often don't need to modify other existing components. They either
+extend it or provide alternatives.
 
 ## Compound Objects
 
-A compound object is base entity instance that has a list of components. The
+A compound object is a base entity instance that has a list of components. The
 core object merely holds the components and they communicate to each other
 through it. The entity usually will update by iterating over root instances
 rather than systems. This is a great start, but is not a fully component based
-approach. The entity is more readable, reusable, and robust allowing it to
-support a larger system and be reusable between projects.
+approach. This way the entity is more readable, reusable, and robust allowing it
+to support a larger system and be reusable between projects.
 
 ### Original Implementation
 
@@ -84,7 +84,7 @@ type EntityAnim struct {
 ## Component oriented design
 
 A truly component based object is nothing more than the sum of it's parts. The
-object is not rigidly defined, but instead have it's characteristics described
+object is not rigidly defined, but instead has it's characteristics described
 through components. Classes become containers of smaller objects. Instead of the
 "is-a" relationship of Object Oriented Design, Component Oriented Design is a
 "has-a" approach.
@@ -141,14 +141,14 @@ Systems have specific needs in order to function properly. In some cases the
 needs of these systems will overlap, but they will not share all data between
 them. Using an object oriented approach, a lot of irrelevant data ends up being
 shared between systems. This noise is also taking up precious space in the CPU
-cache and is making an impact on performance.
+cache and will make an impact on performance.
 
 Class functionality is the interpretation of internal state over time.
-Interpreting the relationship of state or data is part of the problem, but in
-the end it's just data. We aim to separate data from meaning which is difficult
-if not impossible when all the data is in one place. By isolating data we remove
-the need to have classes that inscribe permanent meaning at the cost of having
-to query the data in indirect ways.
+Interpreting the relationship of state or data is part of the issue, but in the
+end it's just data. We aim to separate data from meaning which nearly impossible
+when all the data is in one place. By isolating data we can remove the need to
+have classes that give permanent meaning to the data at the cost of having to
+query the data in more indirect ways.
 
 Instead of classes accessing data in their components, transforms on the class
 should be how we access variables. Rather than a single `update()` call on the

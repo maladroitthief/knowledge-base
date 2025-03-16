@@ -398,15 +398,15 @@ table values should imply the characteristics of the entity.
 
 ### Dynamic run-time polymorphism
 
-Run-time polymorphism is a class providing a different implementation of a base
+Run-time polymorphism is providing a different implementation of a base class
 operation where the class type is unknown at compile time. The class reacts
-differently to function calls depending on it's type and the type can change at
+differently to function calls depending on it's type and the type can vary at
 run-time. Dynamic languages, like python, have few restrictions on class
-definitions which can be very convenient at the high cost of performance.
+definitions which can be very convenient at the cost of performance.
 
 Using existential processing, classes are defined by the tables they belong to.
-Behavior then can be changed by just altering the table data rather than
-managing state, data, or other run-time tricks.
+Behavior then can be changed by altering the table data instead of managing
+state, data, or other run-time tricks.
 
 Implicitly defined classes not only can be run-time polymorphic, they can also
 belong to many tables at the same time. This added functionality allows the
