@@ -412,6 +412,61 @@ Implicitly defined classes not only can be run-time polymorphic, they can also
 belong to many tables at the same time. This added functionality allows the
 implicit class to instead be multiple classes all at once.
 
+#### Object oriented approach
+
+```go
+type Shape interface {
+  Area() float64
+}
+
+type Circle struct {
+  Diameter float64
+}
+
+func (c *Circle) Area() float64 {
+  return c.Diameter * c.Diameter * math.Pi / 4
+}
+
+type Square struct {
+  Width float64
+}
+
+func (s *Square) Area() float64 {
+  return s.Width * s.Width
+}
+```
+
+#### Dynamic run-time polymorphism
+
+```go
+type ShapeType int
+
+const (
+  CircleType ShapeType = iota
+  SquareType
+)
+
+type MutableShape struct {
+  Type           ShapeType
+  DistanceAcross float64
+}
+
+func (m *MutableShape) Area() float64 {
+  switch m.Type {
+  case CircleType:
+    return m.DistanceAcross * m.DistanceAcross * math.Pi / 4
+  case SquareType:
+    return m.DistanceAcross * m.DistanceAcross
+  default:
+    return 0
+  }
+}
+
+func (m *MutableShape) SetNewType(shapeType ShapeType) {
+  m.Type = shapeType
+}
+```
+
 ## Event Handling
 
 Having a table for event registration makes the subscribe and un-subscribe
