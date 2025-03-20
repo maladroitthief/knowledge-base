@@ -24,4 +24,5 @@ to this knowledge-base, linked to other notes, and improved over time.
 - [Algorithms](/algorithms)
 - [Computational-technique](/computer-engineering/Computational-technique)
 - [Linux](/computer-engineering/Linux)
-- [Data Oriented Design](/computer-engineering/Data-Oriented-Design)
+- [Data Oriented
+  Design](/computer-engineering/Data-oriented-design/Data-Oriented-Design)

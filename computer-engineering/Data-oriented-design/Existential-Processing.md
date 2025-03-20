@@ -364,9 +364,9 @@ enum is highly volatile and it would impact performance.
 type HealthState int
 
 const (
-	InFullHealth HealthState = iota
-	IsHurt
-	IsDead
+  InFullHealth HealthState = iota
+  IsHurt
+  IsDead
 )
 ```
 
@@ -374,8 +374,8 @@ const (
 
 ```go
 type Entity struct {
-	ID   int
-	Name string
+  ID   int
+  Name string
 }
 
 var inFullHealthEntities []Entity{}
@@ -386,7 +386,8 @@ func moveToHurt(entity Entity) {
   inFullHealthEntities = slices.DeleteFunc(inFullHealthEntities, func(x Entity) bool {
     return x.ID == entity.ID
   })
-	isHurtEntities = append(isHurtEntities, entity)
+
+  isHurtEntities = append(isHurtEntities, entity)
 }
 ```
 
