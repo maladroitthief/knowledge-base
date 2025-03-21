@@ -42,3 +42,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "base64"
 gem "logger"
 gem "bigdecimal"
+gem "rexml", "~> 3.3.9"
