@@ -1,13 +1,13 @@
 ---
-title: Chris Heckler Interview Process
+title: Chris Hecker Interview Process
 layout: idea
 tags:
   - computer-engineering
 ---
 
-# Chris Heckler Interview Process
+# Chris Hecker Interview Process
 
-The Chris Heckler interview process is an approach to interviewing software
+The Chris Hecker interview process is an approach to interviewing software
 engineers that focuses on assessing the candidate based on topics they should
 already be very familiar with. It is designed to put the candidate into an
 authoritative position where they have all the answers instead of presenting
