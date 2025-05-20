@@ -183,3 +183,7 @@ func NewPlayer(gamepadID int, startPoint Vec) int {
   return ID
 }
 ```
+
+## References
+
+- [Data-Oriented Design](/reference/Data-Oriented-Design)

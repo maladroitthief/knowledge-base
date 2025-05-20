@@ -474,3 +474,7 @@ Having a table for event registration makes the subscribe and un-subscribe
 operations very fast and very simple. Subscribe is an insert and un-subscribe is
 a delete. This also enables subscribing to a topic before the publisher even
 exists.
+
+## References
+
+- [Data-Oriented Design](/reference/Data-Oriented-Design)

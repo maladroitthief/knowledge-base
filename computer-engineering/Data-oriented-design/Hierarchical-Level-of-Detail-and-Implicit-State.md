@@ -127,3 +127,7 @@ Transition errors happen when moving from one state to another sets a value to
 State like this is implicit when traveling along the axis and since it's a
 metric that is being observed rather than directly modified, it's less prone to
 inconsistency.
+
+## References
+
+- [Data-Oriented Design](/reference/Data-Oriented-Design)
