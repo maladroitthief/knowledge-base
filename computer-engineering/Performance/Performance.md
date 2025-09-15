@@ -4,6 +4,7 @@ layout: hub
 tags:
   - performance
   - computer-engineering
+mermaid: true
 ---
 
 # Performance
